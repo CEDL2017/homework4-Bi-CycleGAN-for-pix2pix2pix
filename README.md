@@ -1,6 +1,6 @@
 # Homework4-Bi-CycleGAN
 
-In this homework, you will need to extend the idea of [CycleGAN] (https://arxiv.org/abs/1703.10593) to *multiple-domain* scenarios. We may call these types of models: Bi-CycleGANs or Tri-CycleGANs, or even Multi-CycleGANs.
+In this homework, you will need to extend the idea of [CycleGAN](https://arxiv.org/abs/1703.10593) to *multiple-domain* scenarios. We may call these types of models: Bi-CycleGANs or Tri-CycleGANs, or even Multi-CycleGANs.
 
 
 ## Introduction
@@ -35,7 +35,7 @@ Or
 >C: object captured from 60 degree   
 >[Can be obtained by ShapeNet]
 
-More other examples might be inspired by [here] (https://github.com/mingyuliutw/UNIT)
+More other examples might be inspired by [here](https://github.com/mingyuliutw/UNIT)
 
 **Note that the relation (correspondence) among multiple modalities is not provided (if you generate the dataset yourselves, you need to shuffle the dataset. Although it's still implicitly paired, it's fine for this homework)**
 
