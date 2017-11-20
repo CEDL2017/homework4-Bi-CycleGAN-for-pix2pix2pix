@@ -45,8 +45,9 @@ More other examples might be inspired by [here](https://github.com/mingyuliutw/U
 
 
 ## TODO
-- [75%] Find a scenario and related datasets to demonstrate the idea of BicycleGAN. You may simply train two CycleGANs separately using the original code of CycleGAN without enforcing the consistency of the shared domain between the two cycles. 
-- [10%] Implement BicycleGAN so that you can jointly train the two cycles with additional constraints on the consistency of the shared domain. Compare the results of separate training and joint training.
+- [75%] Find a scenario and related datasets to demonstrate the idea of BicycleGAN. 
+  - You may simply train two CycleGANs separately using the original code of CycleGAN without enforcing the consistency of the shared domain between the two cycles. 
+- [10%] Implement Bi-CycleGANs so that you can jointly train the two cycles with additional constraints on the consistency of the shared domain. Compare the results of separate training and joint training.
 - [10%] Report 
 - [5%] Bonus, share you code and what you learn on github or  yourpersonal blogs, such as [this](https://andrewliao11.github.io/object/detection/2016/07/23/detection/)
 
