@@ -40,9 +40,10 @@ More other examples might be inspired by [here](https://github.com/mingyuliutw/U
 **Note that the relation (correspondence) among multiple modalities is not provided (if you generate the dataset yourselves, you need to shuffle the dataset. Although it's still implicitly paired, it's fine for this homework)**
 
 ## Official implementation of CycleGAN
-- Tensorflow implementation: [here](https://github.com/junyanz/CycleGAN)
+- Torch implementation: [here](https://github.com/junyanz/CycleGAN)
 - Pytorch implementation: [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
+For other implementation, please refer to their [project page](https://junyanz.github.io/CycleGAN/)
 
 ## TODO
 - [75%] Find a scenario and related datasets to demonstrate the idea of BicycleGAN. 
