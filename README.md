@@ -2,6 +2,8 @@
 
 In this homework, you will need to extend the idea of [CycleGAN](https://arxiv.org/abs/1703.10593) to *multiple-domain* scenarios. We may call these types of models: Bi-CycleGANs or Tri-CycleGANs, or even Multi-CycleGANs.
 
+[11/30/2017 update] 
+The related nips paper is here: https://arxiv.org/abs/1711.11586 and official [implementation](https://github.com/junyanz/BicycleGAN) should be released soon. See if you can achieve the performance in the paper or even better :smile:
 
 ## Introduction
 
