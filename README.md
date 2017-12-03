@@ -1,4 +1,4 @@
-# Homework4-Bi-CycleGAN
+# Homework4 Bi-CycleGAN for Image-to-Image-to-Image Translation
 
 In this homework, you will need to extend the idea of [CycleGAN](https://arxiv.org/abs/1703.10593) to *multiple-domain* scenarios. We may call these types of models: Bi-CycleGANs or Tri-CycleGANs, or even Multi-CycleGANs.
 
