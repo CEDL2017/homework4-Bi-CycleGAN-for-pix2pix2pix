@@ -44,26 +44,27 @@ installation tutorial: `http://pytorch.org/`
 #### Epoch 50
 
 <table border=1>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_B.png" width="40%"/>  
-</td>
+  <tr>
+    <td>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_B.png" width="40%"/>
+    </td>
+  <td>
+    <img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_A.png" width="40%"/>
+    <img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_B.png" width="40%"/>  
+  </td>
 </tr>
 <tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_B.png" width="40%"/>  
-</td>
+  <td>
+    <img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_A.png" width="40%"/>
+    <img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_B.png" width="40%"/>
+  </td>
+  <td>
+    <img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_A.png" width="40%"/>
+    <img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_B.png" width="40%"/>  
+  </td>
 </tr>
+<table>
 
 
 #### Epoch 100
@@ -89,6 +90,7 @@ installation tutorial: `http://pytorch.org/`
 <img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_B.png" width="40%"/>  
 </td>
 </tr>
+  </table>
 
 #### Epoch 150
 
@@ -113,6 +115,7 @@ installation tutorial: `http://pytorch.org/`
 <img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_B.png" width="40%"/>  
 </td>
 </tr>
+  </table>
 
 #### Epoch 200
 
@@ -137,6 +140,7 @@ installation tutorial: `http://pytorch.org/`
 <img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_B.png" width="40%"/>  
 </td>
 </tr>
+  </table>
 
 #### uncompleted Bi-cycle GAN
 
