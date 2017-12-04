@@ -62,6 +62,6 @@ For other implementation, please refer to their [project page](https://junyanz.g
 - [5%] Bonus, share you code and what you learn on github or  yourpersonal blogs, such as [this](https://andrewliao11.github.io/object/detection/2016/07/23/detection/)
 
 ## Other
-- Deadline: Dec. 7 23:59, 2017
+- Deadline: Dec. 19 23:59, 2017
 - Office hour by appointment [Yuan-Hong Liao](https://andrewliao11.github.io).
 - Contact *andrewliao11@gmail.com* for bugs report or any questions.
