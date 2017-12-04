@@ -142,6 +142,9 @@ installation tutorial: `http://pytorch.org/`
 </tr>
   </table>
 
+##### Some execellent results
+<img src="bb.jpg" width="87%"/>
+
 #### uncompleted Bi-cycle GAN
 
 
