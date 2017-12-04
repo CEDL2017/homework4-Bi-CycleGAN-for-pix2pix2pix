@@ -42,49 +42,49 @@ installation tutorial: `http://pytorch.org/`
 ### Ordinary cycle GAN
 
 #### Epoch 50
-<img src="./cyclegan_bear_2/images/epoch50_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch50_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch50_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch50_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch50_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch50_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch50_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch50_fake_B.png" width="50%"/>
 <br>
-<img src="./cyclegan_bear_3/images/epoch50_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch50_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch50_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch50_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch50_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch50_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch50_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch50_fake_B.png" width="50%"/>
 
 #### Epoch 100
-<img src="./cyclegan_bear_2/images/epoch100_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch100_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch100_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch100_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_B.png" width="50%"/>
 <br>
-<img src="./cyclegan_bear_3/images/epoch100_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch100_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch100_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch100_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_B.png" width="50%"/>
 
 #### Epoch 150
-<img src="./cyclegan_bear_2/images/epoch150_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch150_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch150_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch150_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_B.png" width="50%"/>
 <br>
-<img src="./cyclegan_bear_3/images/epoch150_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch150_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch150_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch150_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_B.png" width="50%"/>
 
 
 #### Epoch 200
-<img src="./cyclegan_bear_2/images/epoch200_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch200_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch200_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_2/images/epoch200_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_B.png" width="50%"/>
 <br>
-<img src="./cyclegan_bear_3/images/epoch200_fake_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch200_real_B.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch200_real_A.png" width="50%"/>
-<img src="./cyclegan_bear_3/images/epoch200_fake_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_B.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_A.png" width="50%"/>
+<img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_B.png" width="50%"/>
 
 
 #### uncompleted Bi-cycle GAN
