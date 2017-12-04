@@ -1,6 +1,10 @@
 # Homework4 report
 
 ### What scenario do I apply in?
+
+<img src="We_bare_bears.png" width="45%"/>
+↑ I want to do this <3
+
 you are encouraged to elaborate the motivation here
 
 ### What do I modify? 
