@@ -9,17 +9,17 @@
 
 ## Scenario
 
-<img src="We_bare_bears.png" width="70%"/>
+<img src="We_bare_bears.png" width="35%"/>
 
 #### ↑ Inspired by this cartoon show
 
-Domain A: giant panda bear
+Domain A: Giant panda bear
 > About 800 Pictures, manually captured from flickr
 
-Domain B: polar bear
+Domain B: Polar bear
 > Data are obtained from the database AWA2[2]
 
-Domain C: grizzly bear
+Domain C: Grizzly bear
 > Same as domain B
 
 
@@ -28,7 +28,8 @@ Domain C: grizzly bear
 ### Environment construction
 * python 2.7
 * pytorch 0.2.0_3 (macOS or Linux)
-> installation tutorial: `http://pytorch.org/`
+
+   installation tutorial: `http://pytorch.org/`
 * CUDA
 
 
@@ -68,10 +69,8 @@ loss_G = loss_G_AB + loss_G_AC+ loss_G_B + loss_G_C
 ```
 
 Most of the differene are modified in the file `./models/cycle_gan.py` and `./data/unaligned_dataset.py`
-
-Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs. 
-
-
+I don't think my way is the best way to tackle the Bi-cycle training.
+There must be someone who can propose a much better method.
 
 ## Qualitative results
 
@@ -179,9 +178,9 @@ Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs.
 </table>
 
 ##### Some execellent results
-<img src="bb.jpg" width="87%"/>
+<img src="bb.jpg" width="70%"/>
 
-#### Super imperfect Bi-cycle GAN
+### Super imperfect Bi-cycle GAN
 
 #### Epoch 50
 
@@ -278,10 +277,16 @@ Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs.
     </td>
   </tr>
 </table>
-### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
-### Others
+
+### My thoughts 
+
+Most of features learned by my GANs focus on face, neither traditional cycle GAN nor modified BiCycle GAN.
+But Panda bear's body parts are also discriminative.
+Such a pity that the dataset I collected is not various and noiseless enough for the network to learn better features.
+And I think Bicycle GAN might sound simple in concept but not so easy on code modifying and implementation.
+My result sucks.
+
 
 ### Reference
 [1] Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks 
