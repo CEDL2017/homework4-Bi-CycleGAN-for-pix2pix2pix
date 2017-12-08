@@ -24,18 +24,54 @@ Domain C: grizzly bear
 
 
 ## Modifying 
+
+### Environment construction
+* python 2.7
+* pytorch 0.2.0_3 (macOS or Linux)
+> installation tutorial: `http://pytorch.org/`
+* CUDA
+
+
 Simply copy and append the part with domain B and modifd into C.
+
+for instance:
+
+```
+def backward_D_AB(self):
+    fake_B = self.fake_B_pool.query(self.fake_B)
+    loss_D_AB = self.backward_D_basic(self.netD_AB, self.real_B, fake_B)
+    self.loss_D_AB = loss_D_AB.data[0]
+
+def backward_D_AC(self):
+    fake_C = self.fake_C_pool.query(self.fake_C)
+    loss_D_AC = self.backward_D_basic(self.netD_AC, self.real_C, fake_C)
+    self.loss_D_AC = loss_D_AC.data[0]
+
+def backward_D_B(self):
+    fake_AB = self.fake_A_pool.query(self.fake_AB)
+    loss_D_B = self.backward_D_basic(self.netD_B, self.real_A, fake_AB)
+    self.loss_D_B = loss_D_B.data[0]
+
+def backward_D_C(self):
+    fake_AC = self.fake_A_pool.query(self.fake_AC)
+    loss_D_C = self.backward_D_basic(self.netD_C, self.real_A, fake_AC)
+    self.loss_D_C = loss_D_C.data[0]
+
+```
+
+and the generative loss became
+
+```
+loss_G = loss_G_AB + loss_G_AC+ loss_G_B + loss_G_C
+          + loss_cycle_AB + loss_cycle_AC + loss_cycle_B + loss_cycle_C
+          + loss_idt_AB + loss_idt_AC + loss_idt_B + loss_idt_C
+```
 
 Most of the differene are modified in the file `./models/cycle_gan.py` and `./data/unaligned_dataset.py`
 
 Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs. 
 
-### Environment construction
-* python 2.7
-* pytorch 0.2.0_3 (macOS or Linux)
-* CUDA
 
-installation tutorial: `http://pytorch.org/`
 
 ## Qualitative results
 
