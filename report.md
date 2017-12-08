@@ -81,21 +81,21 @@ Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs.
 
 <table border=1>
   <tr>
-    <td>
+     <td align="center">
       <img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_A.png" width="40%"/>
       <img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_B.png" width="40%"/>
     </td>
-  <td>
+   <td align="center">
     <img src="./checkpoints/cyclegan_bear_2/images/epoch050_real_A.png" width="40%"/>
     <img src="./checkpoints/cyclegan_bear_2/images/epoch050_fake_B.png" width="40%"/>  
   </td>
 </tr>
 <tr>
-  <td>
+   <td align="center">
     <img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_A.png" width="40%"/>
     <img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_B.png" width="40%"/>
   </td>
-  <td>
+   <td align="center">
     <img src="./checkpoints/cyclegan_bear_3/images/epoch050_real_A.png" width="40%"/>
     <img src="./checkpoints/cyclegan_bear_3/images/epoch050_fake_B.png" width="40%"/>  
   </td>
@@ -106,84 +106,178 @@ Due to the device limitation, my Bi-cycle GAN fail to complete 200 epochs.
 #### Epoch 100
 
 <table border=1>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_B.png" width="40%"/>  
-</td>
-</tr>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_B.png" width="40%"/>  
-</td>
-</tr>
-  </table>
+  <tr>
+    <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_B.png" width="40%"/>
+    </td>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch100_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch100_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+  <tr>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_B.png" width="40%"/>
+    </td>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch100_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch100_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+</table>
 
 #### Epoch 150
 
 <table border=1>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_B.png" width="40%"/>  
-</td>
-</tr>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_B.png" width="40%"/>  
-</td>
-</tr>
-  </table>
+  <tr>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_B.png" width="40%"/>
+    </td>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch150_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch150_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+  <tr>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_B.png" width="40%"/>
+    </td>
+     <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch150_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch150_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+</table>
 
 #### Epoch 200
 
 <table border=1>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_B.png" width="40%"/>  
-</td>
-</tr>
-<tr>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_B.png" width="40%"/>
-</td>
-<td>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_A.png" width="40%"/>
-<img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_B.png" width="40%"/>  
-</td>
-</tr>
-  </table>
+  <tr>
+    <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_B.png" width="40%"/>
+    </td>
+    <td align="center">
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch200_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_2/images/epoch200_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_B.png" width="40%"/>
+    </td>
+    <td align="center">
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch200_real_A.png" width="40%"/>
+      <img src="./checkpoints/cyclegan_bear_3/images/epoch200_fake_B.png" width="40%"/>  
+    </td>
+  </tr>
+</table>
 
 ##### Some execellent results
 <img src="bb.jpg" width="87%"/>
 
-#### uncompleted Bi-cycle GAN
+#### Super imperfect Bi-cycle GAN
 
+#### Epoch 50
 
+<table border=1>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch050_fake_AB.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch050_fake_AC.png" width="45%"/>
+    </td>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch050_fake_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch050_fake_C.png" width="45%"/>  
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch050_real_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch050_real_C.png" width="45%"/>
+    </td>
+    <td align="center">
+         <img src="./checkpoints/bicycle_bear/epoch050_real_A.png" width="55%"/>
+    </td>
+  </tr>
+</table>
+
+#### Epoch 100
+
+<table border=1>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch100_fake_AB.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch100_fake_AC.png" width="45%"/>
+    </td>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch100_fake_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch100_fake_C.png" width="45%"/>  
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch100_real_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch100_real_C.png" width="45%"/>
+    </td>
+    <td align="center">
+         <img src="./checkpoints/bicycle_bear/epoch100_real_A.png" width="55%"/>
+    </td>
+  </tr>
+</table>
+
+#### Epoch 150
+
+<table border=1>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch150_fake_AB.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch150_fake_AC.png" width="45%"/>
+    </td>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch150_fake_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch150_fake_C.png" width="45%"/>  
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch150_real_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch150_real_C.png" width="45%"/>
+    </td>
+    <td align="center">
+         <img src="./checkpoints/bicycle_bear/epoch150_real_A.png" width="55%"/>
+    </td>
+  </tr>
+</table>
+
+#### Epoch 200
+
+<table border=1>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch200_fake_AB.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch200_fake_AC.png" width="45%"/>
+    </td>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch200_fake_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch200_fake_C.png" width="45%"/>  
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <img src="./checkpoints/bicycle_bear/epoch200_real_B.png" width="45%"/>
+        <img src="./checkpoints/bicycle_bear/epoch200_real_C.png" width="45%"/>
+    </td>
+    <td align="center">
+         <img src="./checkpoints/bicycle_bear/epoch200_real_A.png" width="55%"/>
+    </td>
+  </tr>
+</table>
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
