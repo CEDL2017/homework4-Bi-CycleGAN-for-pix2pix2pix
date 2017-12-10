@@ -4,12 +4,14 @@
 you are encouraged to elaborate the motivation here
 
 ### What do I modify? 
+#### Discriminator of C
 ```
 def backward_D_C(self):
         fake_C = self.fake_BtoC_pool.query(self.fake_C)
         loss_D_C = self.backward_D_basic(self.netD_C, self.real_C, fake_C)
         self.loss_D_C = loss_D_C.data[0]
 ```
+#### Loss of recurrence C and recurrence BfromC
 ```
 rec_C = self.netG_BtoC(fake_BfromC)
 loss_cycle_C = self.criterionCycle(rec_C, self.real_C) * lambda_C
