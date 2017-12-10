@@ -1,8 +1,7 @@
 # Homework4 report
 
 ### What scenario do I apply in?
-you are encouraged to elaborate the motivation here
-
+A : Alien B : 
 ### What do I modify? 
 #### Discriminator of C
 ```
