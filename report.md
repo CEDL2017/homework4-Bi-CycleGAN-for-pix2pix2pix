@@ -286,6 +286,7 @@ But Panda bear's body parts are also discriminative.
 Such a pity that the dataset I collected is not various and noiseless enough for the network to learn better features.
 And I think Bicycle GAN might sound simple in concept but not so easy on code modifying and implementation.
 My result sucks.
+Perhaps the combination constraint had limited the generator that we cannot obtain ideal result.
 
 
 ### Reference
