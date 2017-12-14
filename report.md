@@ -288,7 +288,7 @@ And I think Bicycle GAN might sound simple in concept but not so easy on code mo
 
 My result sucks.
 
-Perhaps the combination constraint had limited the generator that we cannot obtain ideal result.
+Perhaps the combination constraint had limited the generator that's why we cannot obtain ideal results.
 
 
 ### Reference
