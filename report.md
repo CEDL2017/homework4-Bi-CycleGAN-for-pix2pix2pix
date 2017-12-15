@@ -21,8 +21,9 @@ pred_fake_BtoC = self.netD_C(fake_C)
 ```  
 
 ### Qualitative results
-put some interesting images generated from your Bi-CycleGANs
-
+<td bgcolor=LightBlue><img src="thumbnails/Kitchen_image_0208.jpg" width=100 height=75></td>
+<td bgcolor=LightBlue><img src="thumbnails/Kitchen_image_0074.jpg" width=107 height=75></td>
+<td bgcolor=LightGreen><img src="thumbnails/Kitchen_image_0048.jpg" width=100 height=75></td>
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
