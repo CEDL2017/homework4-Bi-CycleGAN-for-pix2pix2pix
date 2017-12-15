@@ -1,7 +1,7 @@
 # Homework4 report
 
 ### What scenario do I apply in?
-A : Alien B : 
+本次實驗是想將 B:猩猩 分別轉換成 A:外星人和 C:人類
 ### What do I modify? 
 #### Discriminator of C
 ```
@@ -26,7 +26,8 @@ pred_fake_BtoC = self.netD_C(fake_C)
 <td><img src="2.png" width=900 height=450></td>
 
 ### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
+<td>參考 cycle-gan 之後自己做了code上的修改變成 Bicycle-gan並經過200 epoch training，上面為部分的結果圖(有些圖下面的下標有些許錯，fake_BfromA <--> fake_AfromB, fake_BfromC <--> fake_CfromB)</td>
+<td>不過由實驗的結果也可以看出來雖然有些圖表現得還不錯，但是也有一些圖感覺只是單純地作色彩轉換而已，似乎並沒有取道有效的 feature。   
 
 ### Others
 
