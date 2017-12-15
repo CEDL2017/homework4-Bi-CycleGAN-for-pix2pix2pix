@@ -2,6 +2,11 @@
 
 ### What scenario do I apply in?
 本次實驗是想將 B:猩猩 分別轉換成 A:外星人和 C:人類
+嘗試了兩種不同的方法
+#### Cycle-gan
+使用 
+#### Bicycle-gan
+根據 Cycle-gan 再另外做些許修改
 ### What do I modify? 
 #### Discriminator of C
 ```
