@@ -21,7 +21,7 @@ pred_fake_BtoC = self.netD_C(fake_C)
 ```  
 
 ### Qualitative results
-<td bgcolor=LightBlue><img src="2017-12-15 13-23-35 的螢幕擷圖.png" width=100 height=75></td>
+<td bgcolor=LightBlue><img src="2017-12-15 13-23-35 的螢幕擷圖.png" width=400 height=200></td>
 <td bgcolor=LightBlue><img src="2017-12-15 13-25-15 的螢幕擷圖.png" width=100 height=75></td>
 <td bgcolor=LightGreen><img src="2017-12-15 13-25-58 的螢幕擷圖.png" width=100 height=75></td>
 ### My thoughts 
