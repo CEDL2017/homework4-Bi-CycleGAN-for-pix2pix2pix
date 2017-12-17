@@ -40,10 +40,10 @@ pred_fake_BtoC = self.netD_C(fake_C)
 參考 cycle-gan 之後自己做了code上的修改變成 Bicycle-gan並經過200 epoch training，上面為部分的結果圖(有些圖下面的下標有些許錯，fake_BfromA <--> fake_AfromB, fake_BfromC <--> fake_CfromB)
         
         
-不過由實驗的結果也可以看出來雖然有些圖表現得還不錯，但是也有一些圖感覺只是單純地作色彩轉換而已，似乎並沒有取道有效的 feature。   
+不過由實驗的結果也可以看出來在兩個方法上雖然有些圖表現得還不錯，但是也有一些圖感覺只是單純地作色彩轉換而已，似乎並沒有取到有效的 feature。   
 
 ### Others
 以上所有的順練資料都是從 google上面經過篩選後抓下來的，
-猩猩 張，人類 張，外星人 張
+猩猩 815張，人類 554張，外星人 250張
 ### Reference
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
