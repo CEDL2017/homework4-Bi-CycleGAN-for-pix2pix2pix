@@ -3,8 +3,11 @@
 # Homework4 report
 
 ## Bi-CycleGAN for Unpaired Image-to-Image-to-Image Translation
-> Cycle 1: A ←→ B
-> Cycle 2: A ←→ C
+
+>Cycle 1: A ←→ B
+>
+>Cycle 2: A ←→ C
+
 A is the common domain (or common modality) shared by the two cycles.
 
 
@@ -13,33 +16,39 @@ you are encouraged to elaborate the motivation here
 
 * Style Transfer
 	- Transferring between real photos and artistic styles of Monet and Ukiyo-e (Monet ←→ Photo ←→ Ukiyo-e)
-	> A: Photo (landscape photographs)
-	> B: Monet (landscape painting)
-	> C: Ukiyo-e (portrait painting)
+	
+	>A: Photo (landscape photographs)
+	>
+	>B: Monet (landscape painting)
+	>
+	>C: Ukiyo-e (portrait painting)
 
 
 ### What do I modify?
 you can show some snippet
 
-* Separate training
-	- Simply train two CycleGANs separately using the original code of CycleGAN [2]
+#### Separate training
+- Simply train two CycleGANs separately using the original code of CycleGAN [2]
 
-* Joint training
-	- Jointly train the two cycles with additional constraints on the consistency of the shared domain
-		+ bi_backward_consistency_loss: using Maximum Mean Discrepancy (MMD) to measure distribution between two domains ((A,B) and (A,C) pairs)
-		<p align="center"><img src="imgs/bi_backward_MMD_loss.png"/></p>
-	'''
-	def bi_backward_consistency_loss(self, XY_F, XZ_F, x, y, z):
-		""" bi-backward MMD consistency loss (L2 norm)
-		"""
-		mean_Y2X = tf.reduce_mean(XY_F(y), axis=0)
-		mean_Z2X = tf.reduce_mean(XZ_F(z), axis=0)
-		mean_X = tf.reduce_mean(x, axis=0)
-		XY_backward_loss = tf.reduce_mean(tf.square(mean_Y2X - mean_X))
-		XZ_backward_loss = tf.reduce_mean(tf.square(mean_Z2X - mean_X))
-		loss = XY_backward_loss + XZ_backward_loss
-		return loss
-	'''
+#### Joint training
+- Jointly train the two cycles with additional constraints on the consistency of the shared domain
+	+ bi_backward_consistency_loss
+		* using Maximum Mean Discrepancy (MMD) to measure distribution between two domains ((A,B) and (A,C) pairs)
+
+<p align="center"><img src="imgs/bi_backward_MMD_loss.png"/ width="50%"></p>
+
+```
+def bi_backward_consistency_loss(self, XY_F, XZ_F, x, y, z):
+	""" bi-backward MMD consistency loss (L2 norm)
+	"""
+	mean_Y2X = tf.reduce_mean(XY_F(y), axis=0)
+	mean_Z2X = tf.reduce_mean(XZ_F(z), axis=0)
+	mean_X = tf.reduce_mean(x, axis=0)
+	XY_backward_loss = tf.reduce_mean(tf.square(mean_Y2X - mean_X))
+	XZ_backward_loss = tf.reduce_mean(tf.square(mean_Z2X - mean_X))
+	loss = XY_backward_loss + XZ_backward_loss
+	return loss
+```
 
 
 ### Qualitative results
@@ -51,35 +60,11 @@ put some interesting images generated from your Bi-CycleGANs
 Photo → Monet
 </td>
 <td colspan="3">
-Monet → Photo
-</td>
-<td colspan="3">
 Photo → Ukiyo-e
-</td>
-<td colspan="3">
-Ukiyo-e → Photo
 </td>
 </tr>
 
 <tr>
-<td>
-Input Image
-</td>
-<td>
-Separate Training Result
-</td>
-<td>
-Joint Training Result
-</td>
-<td>
-Input Image
-</td>
-<td>
-Separate Training Result
-</td>
-<td>
-Joint Training Result
-</td>
 <td>
 Input Image
 </td>
@@ -111,15 +96,6 @@ Joint Training Result
 <img src="jt_results/photo2monet/photo2monet_2014-08-05 09_28_38.jpg"/>
 </td>
 <td>
-<img src="data/monet2photo/testA/00060.jpg"/>
-</td>
-<td>
-<img src="st_results/monet2photo/monet2photo_00060.jpg"/>
-</td>
-<td>
-<img src="jt_results/monet2photo/monet2photo_00060.jpg"/>
-</td>
-<td>
 <img src="data/ukiyoe2photo/testB/2014-08-05 09_28_38.jpg"/>
 </td>
 <td>
@@ -127,15 +103,6 @@ Joint Training Result
 </td>
 <td>
 <img src="jt_results/photo2ukiyoe/photo2ukiyoe_2014-08-05 09_28_38.jpg"/>
-</td>
-<td>
-<img src="data/ukiyoe2photo/testA/01201.jpg"/>
-</td>
-<td>
-<img src="st_results/ukiyoe2photo/ukiyoe2photo_01201.jpg"/>
-</td>
-<td>
-<img src="jt_results/ukiyoe2photo/ukiyoe2photo_01201.jpg"/>
 </td>
 </tr>
 
@@ -150,15 +117,6 @@ Joint Training Result
 <img src="jt_results/photo2monet/photo2monet_2014-08-06 08_56_57.jpg"/>
 </td>
 <td>
-<img src="data/monet2photo/testA/00150.jpg"/>
-</td>
-<td>
-<img src="st_results/monet2photo/monet2photo_00150.jpg"/>
-</td>
-<td>
-<img src="jt_results/monet2photo/monet2photo_00150.jpg"/>
-</td>
-<td>
 <img src="data/ukiyoe2photo/testB/2014-08-06 08_56_57.jpg"/>
 </td>
 <td>
@@ -166,15 +124,6 @@ Joint Training Result
 </td>
 <td>
 <img src="jt_results/photo2ukiyoe/photo2ukiyoe_2014-08-06 08_56_57.jpg"/>
-</td>
-<td>
-<img src="data/ukiyoe2photo/testA/01285.jpg"/>
-</td>
-<td>
-<img src="st_results/ukiyoe2photo/ukiyoe2photo_01285.jpg"/>
-</td>
-<td>
-<img src="jt_results/ukiyoe2photo/ukiyoe2photo_01285.jpg"/>
 </td>
 </tr>
 
@@ -189,15 +138,6 @@ Joint Training Result
 <img src="jt_results/photo2monet/photo2monet_2014-08-12 02_21_03.jpg"/>
 </td>
 <td>
-<img src="data/monet2photo/testA/01330.jpg"/>
-</td>
-<td>
-<img src="st_results/monet2photo/monet2photo_01330.jpg"/>
-</td>
-<td>
-<img src="jt_results/monet2photo/monet2photo_01330.jpg"/>
-</td>
-<td>
 <img src="data/ukiyoe2photo/testB/2014-08-12 02_21_03.jpg"/>
 </td>
 <td>
@@ -205,6 +145,90 @@ Joint Training Result
 </td>
 <td>
 <img src="jt_results/photo2ukiyoe/photo2ukiyoe_2014-08-12 02_21_03.jpg"/>
+</td>
+</tr>
+
+<tr>
+<td colspan="3">
+Monet → Photo
+</td>
+<td colspan="3">
+Ukiyo-e → Photo
+</td>
+</tr>
+
+<tr>
+<td>
+Input Image
+</td>
+<td>
+Separate Training Result
+</td>
+<td>
+Joint Training Result
+</td>
+<td>
+Input Image
+</td>
+<td>
+Separate Training Result
+</td>
+<td>
+Joint Training Result
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="data/monet2photo/testA/00060.jpg"/>
+</td>
+<td>
+<img src="st_results/monet2photo/monet2photo_00060.jpg"/>
+</td>
+<td>
+<img src="jt_results/monet2photo/monet2photo_00060.jpg"/>
+</td>
+<td>
+<img src="data/ukiyoe2photo/testA/01201.jpg"/>
+</td>
+<td>
+<img src="st_results/ukiyoe2photo/ukiyoe2photo_01201.jpg"/>
+</td>
+<td>
+<img src="jt_results/ukiyoe2photo/ukiyoe2photo_01201.jpg"/>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="data/monet2photo/testA/00150.jpg"/>
+</td>
+<td>
+<img src="st_results/monet2photo/monet2photo_00150.jpg"/>
+</td>
+<td>
+<img src="jt_results/monet2photo/monet2photo_00150.jpg"/>
+</td>
+<td>
+<img src="data/ukiyoe2photo/testA/01285.jpg"/>
+</td>
+<td>
+<img src="st_results/ukiyoe2photo/ukiyoe2photo_01285.jpg"/>
+</td>
+<td>
+<img src="jt_results/ukiyoe2photo/ukiyoe2photo_01285.jpg"/>
+</td>
+</tr>
+
+<tr>
+<td>
+<img src="data/monet2photo/testA/01330.jpg"/>
+</td>
+<td>
+<img src="st_results/monet2photo/monet2photo_01330.jpg"/>
+</td>
+<td>
+<img src="jt_results/monet2photo/monet2photo_01330.jpg"/>
 </td>
 <td>
 <img src="data/ukiyoe2photo/testA/01446.jpg"/>
@@ -225,16 +249,16 @@ Joint Training Result
 
 <table border=1>
 <tr>
-<td rowspan"2">
+<td rowspan="2" width="20%">
 Direction
 </td>
-<td colspan="2">
+<td colspan="2" width="25%">
 Average Normalized Root Mean Squared Error (NRMSE)
 </td>
-<td colspan="2">
+<td colspan="2" width="25%">
 Average Structural Similarity (SSIM)
 </td>
-<td colspan="2">
+<td colspan="2" width="30%">
 Average Peak Signal to Noise Ratio (PSNR)
 </td>
 </tr>
@@ -362,21 +386,24 @@ Ukiyo-e → Photo
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
 #### Pros
-	- Using many different constraints to make generated results more robust.
-		+ Original GAN loss for generator and discriminator
-		+ Cycle-consistent loss for forward and backward cycles
-		+ Identity mapping loss for real samples
-		+ Bi-backward MMD loss for matching distribution between domains when joint training with additional constraint
+- Using many different constraints to make generated results more robust.
+	+ Original GAN loss for generator and discriminator
+	+ Cycle-consistent loss for forward and backward cycles
+	+ Identity mapping loss for real samples
+	+ Bi-backward MMD loss for matching distribution between domains when joint training with additional constraint
 
 #### Cons
-	- Transferring images with certain artistic style into real photos (painting → landscape photographs) is still challenging.
-		+ Especially Ukiyo-e case (portrait painting → landscape photographs), since images with Ukiyo-e style usually contain unique style of figures (portraits).
-	- If applying for multiple modalities by constructing Multi-CycleGANs, need to train a very large model.
-		+ Instead, Auxiliary Classifier CycleGANs (?)
-			* Generate images by given certain condition (information) for certain domain
-			* Discriminate real/fake images and Classify images belonging to which domain (condition)
+- Transferring images with certain artistic style into real photos (painting → landscape photographs) is still challenging.
+	+ Especially Ukiyo-e case (portrait painting → landscape photographs), since images with Ukiyo-e style usually contain unique style of figures (portraits).
+
+- If applying for multiple modalities by constructing Multi-CycleGANs, need to train a very large model.
+	+ Instead, Auxiliary Classifier CycleGANs (?)
+		* Generate images by given certain condition (information) for certain domain
+		* Discriminate real/fake images and Classify images belonging to which domain (condition)
 
 
 ### Reference
+
 [1] [Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks - Project Page](https://junyanz.github.io/CycleGAN/)
+
 [2] [CycleGAN-TensorFlow](https://github.com/vanhuyz/CycleGAN-TensorFlow)
