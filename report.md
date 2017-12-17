@@ -1,13 +1,13 @@
 # Homework4 report
 
 ### What scenario do I apply in?
-本次實驗是想將 B:猩猩 分別轉換成 A:外星人和 C:人類
+本次實驗是想將 B:猩猩 分別轉換成 A:外星人和 C:人類，來看看外星人有沒有可能也是從猩猩演化而來的。
 嘗試了兩種不同的方法
 #### Cycle-gan
-使用 
+使用 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix 的code來產生結果。
 #### Bicycle-gan
-根據 Cycle-gan 再另外做些許修改
-### What do I modify? 
+根據 Cycle-gan 再自己另外做些許修改。
+### In bicycle-gan what do I modify? 
 #### Discriminator of C
 ```
 def backward_D_C(self):
@@ -26,6 +26,12 @@ pred_fake_BtoC = self.netD_C(fake_C)
 ```  
 
 ### Qualitative results
+#### Cycle-gan
+<td><img src="" width=900 height=450></td>
+<td><img src="" width=900 height=450></td>
+<td><img src="" width=900 height=450></td>
+
+#### Bicycle-gan
 <td><img src="2017-12-15 13-23-35 的螢幕擷圖.png" width=900 height=450></td>
 <td><img src="1.png" width=900 height=450></td>
 <td><img src="2.png" width=900 height=450></td>
@@ -37,6 +43,7 @@ pred_fake_BtoC = self.netD_C(fake_C)
 不過由實驗的結果也可以看出來雖然有些圖表現得還不錯，但是也有一些圖感覺只是單純地作色彩轉換而已，似乎並沒有取道有效的 feature。   
 
 ### Others
-
+以上所有的順練資料都是從 google上面經過篩選後抓下來的，
+猩猩 張，人類 張，外星人 張
 ### Reference
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
