@@ -12,15 +12,19 @@ Actually I hardly modify any code of the original PyTorch implementaion.
 
 ### Qualitative results
 Apple2orange-Training
+
 ![](https://i.imgur.com/g36y71q.png)
 
 Apple2orange-Testing
+
 ![](https://i.imgur.com/C1udWyz.png)
 
 Orange2lemon-Training
+
 ![](https://i.imgur.com/wzHQ7aB.png)
 
 Orange2lemon-Testing
+
 ![](https://i.imgur.com/VlSU7SK.png)
 
 ### My thoughts 
