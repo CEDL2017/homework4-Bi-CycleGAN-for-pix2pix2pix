@@ -11,7 +11,17 @@ and what I want to do is further the modality in this scenario.
 Actually I hardly modify any code of the original PyTorch implementaion.
 
 ### Qualitative results
-put some interesting images generated from your Bi-CycleGANs
+Apple2orange-Training
+![](https://i.imgur.com/g36y71q.png)
+
+Apple2orange-Testing
+![](https://i.imgur.com/C1udWyz.png)
+
+Orange2lemon-Training
+![](https://i.imgur.com/wzHQ7aB.png)
+
+Orange2lemon-Testing
+![](https://i.imgur.com/VlSU7SK.png)
 
 ### My thoughts 
 The biggest challenge of this work is to modify the original code to extract multiple and different modalities from the images.
