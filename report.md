@@ -29,18 +29,18 @@ I split horse dataset into 3 parts. First part is converted to grayscale and tra
 I think that these can be applied into some application such as photoshop to make interesting effect. The shortcoming is that it needs lots of time to get it work.
 
 ### Training
-##### Download a dataset (e.g. zebra and horse images from ImageNet):
+#### Download a dataset (e.g. zebra and horse images from ImageNet):
 ```
 bash ./download_dataset.sh horse2zebra
 ```
-##### convert data
+#### convert data
 `convert_data.ipynb`: notebook that split horse dataset and convert to grayscale.  
 ##### Train model
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset_dir=horse2zebra2
 CUDA_VISIBLE_DEVICES=1 python main.py --dataset_dir=horse2gray
 ```
-##### Test model
+#### Test model
 `demo.ipynb`: notebook demo how to convert between domains.
 ### Reference
 https://github.com/xhujoy/CycleGAN-tensorflow
