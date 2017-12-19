@@ -15,8 +15,8 @@
 | :--------: | :----: | :----: | :----: | :----: |
 | A<->B | ![](AB/1a.png) | ![](AB/1b.png) | ![](BA/1b.png) | ![](BA/1a.png) |
 | A<->B | ![](AB/2a.png) | ![](AB/2b.png) | ![](BA/2b.png) | ![](BA/2a.png) |
-| B<->C | ![](sum2flower/cherry_pick/epoch054_real_A.png) | ![](sum2flower/cherry_pick/epoch054_real_B.png) | ![](sum2flower/cherry_pick/epoch054_fake_B.png) | ![](sum2flower/cherry_pick/epoch054_fake_A.png) |
-| B<->C | ![](sum2flower/cherry_pick/epoch057_real_A.png) | ![](sum2flower/cherry_pick/epoch057_real_B.png) | ![](sum2flower/cherry_pick/epoch057_fake_B.png) | ![](sum2flower/cherry_pick/epoch057_fake_A.png) |
+| B<->C | ![](BC/1c.png) | ![](BC/1b.png) | ![](CB/1b.png) | ![](CB/1c.png) |
+| B<->C | ![](BC/2c.png) | ![](BC/2b.png) | ![](CB/2b.png) | ![](CB/2c.png) |
 
 | Model name | Real A | Fake B | Fake C |
 | :--------: | :----: | :----: | :----: |
