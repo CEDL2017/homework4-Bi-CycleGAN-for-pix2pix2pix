@@ -1,6 +1,6 @@
 # 江愷笙 <span style="color:black">(106062568)</span>
 
-Here is the [github page]() of my report.
+Here is the [github page](https://petersci.github.io/homework4-Bi-Cycle-GAN/) of my report.
 
 # Homework4 report
 
