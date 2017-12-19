@@ -30,18 +30,21 @@ you can show some snippet
 ### Qualitative results
 
 Cycle GAN : A->B
+
 | Domain | real A | fake B | real B |
 | :----: | :-----:| :----: | :----: |
 | A->B |![](data/data/real_AB1.png)| ![](data/data/fake_BA1.png) | ![](data/data/real_BA1.png) | ![](data/data/fake_AB1.png) |
 | A->B |![](data/data/real_AB2.png)| ![](data/data/fake_BA2.png) | ![](data/data/real_BA2.png) | ![](data/data/fake_AB2.png) |
 
 Cycle GAN : A->C
+
 | Domain | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | 
 | A->C |![](data/data/real_AC1.png)| ![](data/data/fake_CA1.png) | ![](data/data/real_CA1.png) | ![](data/data/fake_AC1.png) |
 | A->C |![](data/data/real_AC2.png)| ![](data/data/fake_CA2.png) | ![](data/data/real_CA2.png) | ![](data/data/fake_AC2.png) |
 
 Bi-Cycle GAN : A->B and A->C
+
 | Domain | real A | fake B | real B | fake A | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
 | A->B and A->C |![](data/data/epoch093_real_A.png)| ![](data/data/epoch093_fake_B.png) | ![](data/data/epoch093_real_B.png) | ![](data/data/epoch093_fake_A.png) |![](data/data/epoch093_real_AC.png)| ![](data/data/epoch093_fake_C.png) | ![](data/data/epoch093_real_C.png) | ![](data/data/epoch093_fake_CA.png) |
