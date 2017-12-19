@@ -17,7 +17,7 @@ This project is related to
 
 In this project we have to find a dataset and use the idea of cycle-GAN to do the style transfer. The main idea is to train two cycle-GAN, which is A -> B -> A' and B -> C -> B'. Here I found some interest from "StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation", which is a pretty new paper with amazing results. I use one of the dataset which they have used in their work called "CelebA", which collects many different images with people in different style, and label them with 40 attributes such as Black_Hair, Male, Brown_Hair, Pale, Chubby etc. Since each image may have multiple attributes, for example, a people with black is probably a man, so I choose three domain that are Black_Hair, Blond_Hair and Gray_Hair in order to let each image only occur in one domain.
 
-* get_CelebA.py
+### get_CelebA.py
 
 In order to use the dataset and split it into the three domain I want, I write my own code to read the label and save the image to the related folder.
 
@@ -89,23 +89,15 @@ for idx, path in enumerate(test_filenames_black):
 
 ### Getting Started
 
-For the starter code, I use Tensorflow implementation of CycleGANs by Harry Yang.
-
-To get started, first clone the repository and renamed it as CycleGAN_TensorFlow.
-
-Use `$ bash ./download_datasets.sh horse2zebra` to download horse2zebra dataset for testing.
-
-Use `$ bash download.sh` to download CelebA.
-
-To split the data into the domain we want, Use `$ python get_CelebA.py`, and don't forget to change image_path, metadata_path and saving_path in get_CelebA.py to your own directory.
-
-Use `$ convert '*.jpg[128x128!]' resize%06d.jpg` to resize the image in the folder to the size you want.
-
-Use `$ for i in $(seq num1 num2); do rm $i.jpg; done` to delete the unresized image.
-
-Follow the instruction [here](https://github.com/leehomyc/cyclegan-1) for training and testing.
-
-If you want to test my result, use the checkpoint in black2blond_ckpt and blond2gray_ckpt and do the testing.
+* For the starter code, I use Tensorflow implementation of CycleGANs by Harry Yang.
+* To get started, first clone the repository and renamed it as CycleGAN_TensorFlow.
+* Use `$ bash ./download_datasets.sh horse2zebra` to download horse2zebra dataset for testing.
+* Use `$ bash download.sh` to download CelebA.
+* To split the data into the domain we want, Use `$ python get_CelebA.py`, and don't forget to change image_path, metadata_path and saving_path in get_CelebA.py to your own directory.
+* Use `$ convert '*.jpg[128x128!]' resize%06d.jpg` to resize the image in the folder to the size you want.
+* Use `$ for i in $(seq num1 num2); do rm $i.jpg; done` to delete the unresized image.
+* Follow the instruction [here](https://github.com/leehomyc/cyclegan-1) for training and testing.
+* If you want to test my result, use the checkpoint in "black2blond_ckpt" and "blond2gray_ckpt" and do the testing.
 
 ## Results
 
