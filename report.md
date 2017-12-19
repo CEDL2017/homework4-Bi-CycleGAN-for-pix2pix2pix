@@ -31,16 +31,19 @@ you can show some snippet
 - Simply train two CycleGANs separately using the original code [3] of CycleGAN [1]
 	+ Original GAN loss for generator and discriminator
 	<p align="center"><img src="imgs/GAN_loss.png"/ width="50%"></p>
+	
 	+ Cycle-consistent loss for forward and backward cycles
 	<p align="center"><img src="imgs/cycle_loss.png"/ width="50%"></p>
+	
 	+ Identity mapping loss for real samples
-	<p align="center"><img src="imgs/identity_loss.png"/ width="50%"></p>
+	<p align="center"><img src="imgs/identity_loss.png"/ width="70%"></p>
 
 #### Joint training
 - Jointly train the two cycles with additional constraints on the consistency of the shared domain
 	+ bi_backward_consistency_loss
 		* using Maximum Mean Discrepancy (MMD) to measure distribution between two domains ((A,B) and (A,C) pairs)
 <p align="center"><img src="imgs/bi_backward_MMD_loss.png"/ width="50%"></p>
+
 ```
 def bi_backward_consistency_loss(self, XY_F, XZ_F, x, y, z):
 	""" bi-backward MMD consistency loss (L2 norm)
@@ -425,6 +428,20 @@ you can make some comments on the your own homework, e.g. what's the strength? w
 #### Cons
 - Transferring images with certain artistic style into real photos (painting → landscape photographs) is still challenging.
 	+ Especially Ukiyo-e case (portrait painting → landscape photographs), since images with Ukiyo-e style usually contain unique style of figures (portraits).
+
+<table border=1>
+<tr>
+<td>
+<img src="data/ukiyoe2photo/testA/01277.jpg"/>
+</td>
+<td>
+<img src="st_results/ukiyoe2photo/ukiyoe2photo_01277.jpg"/>
+</td>
+<td>
+<img src="jt_results/ukiyoe2photo/ukiyoe2photo_01277.jpg"/>
+</td>
+</tr>
+</table>
 
 - If applying for multiple modalities by constructing Multi-CycleGANs, need to train a very large model.
 	+ Instead, Auxiliary Classifier CycleGANs (StarGAN [4])
