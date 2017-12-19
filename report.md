@@ -9,6 +9,22 @@
 I trained A<->B and B<->C
 
 ### What do I modify? 
+Download the CycleGAN datasets using the following script
+<code>bash ./datasets/download_cyclegan_dataset.sh dataset_name</code>
+
+Here I use "summer2winter_yosemite" and "dslr_flower" datasets   
+And Use <code>python train.py --dataroot ./datasets/"The Datasets" --name maps_cyclegan --mode "saved model name" --no_dropout</code> to train new model
+
+I modified some hyperparamers in <code>train_options.py</code> as follows and hope it converge faster:     
+
+<code>   
+    
+    lambda_A = 15.0
+    lambda_B = 15.0
+    lr = 0.0003
+    lr_decay_iters = 40 
+  
+</code>
 
 
 ### Qualitative results
