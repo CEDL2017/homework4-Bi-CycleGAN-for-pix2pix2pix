@@ -33,24 +33,24 @@ Cycle GAN : A->B, A:1096 images, B:1096 images
 
 | Domain | real A | fake B | real B | fake B |
 | :----: | :-----:| :----: | :----: | :----: | 
-| A->B |![](data/data/real_AB1.png)| ![](data/data/fake_BA1.png) | ![](data/data/real_BA1.png) | ![](data/data/fake_AB1.png) |
-| A->B |![](data/data/real_AB2.png)| ![](data/data/fake_BA2.png) | ![](data/data/real_BA2.png) | ![](data/data/fake_AB2.png) |
+| A->B |![](images/real_AB1.png)| ![](images/fake_BA1.png) | ![](images/real_BA1.png) | ![](images/fake_AB1.png) |
+| A->B |![](images/real_AB2.png)| ![](images/fake_BA2.png) | ![](images/real_BA2.png) | ![](images/fake_AB2.png) |
 
 
 Cycle GAN : A->C, A:1096 images, C:6288 images
 
 | Domain | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | 
-| A->C |![](data/data/real_AC1.png)| ![](data/data/fake_CA1.png) | ![](data/data/real_CA1.png) | ![](data/data/fake_AC1.png) |
-| A->C |![](data/data/real_AC2.png)| ![](data/data/fake_CA2.png) | ![](data/data/real_CA2.png) | ![](data/data/fake_AC2.png) |
+| A->C |![](images/real_AC1.png)| ![](images/fake_CA1.png) | ![](images/real_CA1.png) | ![](images/fake_AC1.png) |
+| A->C |![](images/real_AC2.png)| ![](images/fake_CA2.png) | ![](images/real_CA2.png) | ![](images/fake_AC2.png) |
 
 
 Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 
 | Domain | real A | fake B | real B | fake A | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| A->B and A->C |![](data/data/epoch093_real_A.png)| ![](data/data/epoch093_fake_B.png) | ![](data/data/epoch093_real_B.png) | ![](data/data/epoch093_fake_A.png) |![](data/data/epoch093_real_AC.png)| ![](data/data/epoch093_fake_C.png) | ![](data/data/epoch093_real_C.png) | ![](data/data/epoch093_fake_CA.png) |
-| A->B and A->C |![](data/data/epoch095_real_A.png)| ![](data/data/epoch095_fake_B.png) | ![](data/data/epoch095_real_B.png) | ![](data/data/epoch095_fake_A.png) |![](data/data/epoch095_real_AC.png)| ![](data/data/epoch095_fake_C.png) | ![](data/data/epoch095_real_C.png) | ![](data/data/epoch095_fake_CA.png) |
+| A->B and A->C |![](images/epoch093_real_A.png)| ![](images/epoch093_fake_B.png) | ![](images/epoch093_real_B.png) | ![](images/epoch093_fake_A.png) |![](images/epoch093_real_AC.png)| ![](images/epoch093_fake_C.png) | ![](images/epoch093_real_C.png) | ![](images/epoch093_fake_CA.png) |
+| A->B and A->C |![](images/epoch095_real_A.png)| ![](images/epoch095_fake_B.png) | ![](images/epoch095_real_B.png) | ![](images/epoch095_fake_A.png) |![](images/epoch095_real_AC.png)| ![](images/epoch095_fake_C.png) | ![](images/epoch095_real_C.png) | ![](images/epoch095_fake_CA.png) |
 
 ### My thoughts 
 因為一開始train時沒想那麼多,所以C dataset的大小超大,在Bi-Cycle-GAN training的時候因為時間以及資源不足,所以把dataset全部縮小了.
