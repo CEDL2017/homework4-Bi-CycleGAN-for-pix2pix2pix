@@ -28,6 +28,10 @@ Yosemite Autumn -> Summer -> Winter
     <td><img src="image/winter_4.jpg"/></td>
   </tr>
 </table>
+
+- 從以上sample可以看出，3個季節主要的差別從上圖來看是顏色，秋天橘紅色較多，夏天綠色的樹木較多，冬天多為雪白色。
+- 希望他能學會顏色的轉換，更好的是可以轉換成冬天時，除了變白色，也把雪的texture學起來
+
 ### What do I modify? 
 
 #### Data Collection
@@ -90,11 +94,16 @@ put some interesting images generated from your Bi-CycleGANs
   
 </table>
 
-
+- 顏色方面轉換的很好，樹葉從橘紅轉綠轉深，草地從綠轉白
+- 雪地的texture也學的蠻像的
 
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
-### Others
+1. 從上圖來看，cycle gan在texture的轉換可以學的不錯。
+2. 可是圖片的細節還是有不少瑕疵可以辨認出是假的圖片。
+3. 我認為cycle gan的只學到哪些對應的texture做轉換後，可以讓discriminator分不出真假。而不像pixel2pixel 是真的學到semantic的資訊，所以可以做更複雜的轉換，例如：image to segmentation label or 衛星圖轉成地圖。因此cycle gan的應用還是比較限制的。
+
 
 ### Reference
+ https://github.com/hellock/icrawler
