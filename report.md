@@ -4,7 +4,9 @@
 you are encouraged to elaborate the motivation here
 
 ### What do I modify? 
-you can show some snippet
+I collect domainA and domainB data from celebA about 400 images individually.<br>
+And I collect domainC data from internet for 400 images same as domainA and domainB.<br>
+I change the input image size from ' ' to ' ',and the batch size I used 2.
 
 ### Qualitative results
 put some interesting images generated from your Bi-CycleGANs
