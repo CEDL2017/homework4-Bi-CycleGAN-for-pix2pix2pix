@@ -2,12 +2,14 @@
 
 ### What scenario do I apply in?
 I have tried on several scenarios including 
-1. baby -> alien and baby -> ape
+ 1. baby -> alien and baby -> ape
+ 
 
-2. snake -> rope and snake -> earthworm
+ 2. snake -> rope and snake -> earthworm
 
 However, the results are not appealing. So I collected another dataset which is more friendly to train in my point of view.
-3. oat -> rice and oat-> raisin
+
+ 3. oat -> rice and oat-> raisin
 
 ### What do I modify? 
 I didn't modify the cyclegan network. I only changed some parameters in the base_options and wrote matlab function to preprocess the downloaded pictures.
