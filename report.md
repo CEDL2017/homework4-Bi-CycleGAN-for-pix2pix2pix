@@ -20,46 +20,46 @@ The result from cezanne to photo is somehow not very satisfying. After training 
 
 Original | Generated Result
 ----------|----------
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00420.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00420.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00110.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00110.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00100.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00100.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00410.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00410.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00370.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00370.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00280.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00280.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00540.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/cezanne2photo_test/AtoB_00540.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00420.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00420.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00110.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00110.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00100.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00100.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00410.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00410.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00370.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00370.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00280.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00280.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00540.jpg'> | <img src='./CycleGAN-tensorflow/cezanne2photo_test/AtoB_00540.jpg'>
 #### Photo(original test data) to Vangogh
 The result from real photo to vangogh style seems very well.
 
 Original | Generated Result
 ----------|----------
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-20 07-28-35.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-20 07-28-35.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-08-12 02-21-03.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-08-12 02-21-03.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-10 18-20-49.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-10 18-20-49.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2015-04-20 09-43-57.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2015-04-20 09-43-57.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-08-15 16-31-35.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-08-15 16-31-35.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-10-22 09-03-34.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-10-22 09-03-34.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-07 05-00-46.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-07 05-00-46.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-10-14 01-24-38.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-10-14 01-24-38.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-09-08 05-05-44.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-09-08 05-05-44.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-20 07-28-35.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-20 07-28-35.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-08-12 02-21-03.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-08-12 02-21-03.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-10 18-20-49.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-10 18-20-49.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2015-04-20 09-43-57.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2015-04-20 09-43-57.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-08-15 16-31-35.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-08-15 16-31-35.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-10-22 09-03-34.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-10-22 09-03-34.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-12-07 05-00-46.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-12-07 05-00-46.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-10-14 01-24-38.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-10-14 01-24-38.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/photo2vangogh/testA/2014-09-08 05-05-44.jpg'> | <img src='./CycleGAN-tensorflow/photo2vangogh_test/AtoB_2014-09-08 05-05-44.jpg'>
 
 #### Generated(from cezanne2photo) Photo to Vangogh
 Original Cezanne | Generated Photo Result | Generated Vangogh Result
 ----------|----------|------------
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00570.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00570.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00570.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00360.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00360.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00360.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00560.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00560.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00560.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00420.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00420.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00420.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00110.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00110.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00110.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00100.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00100.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00100.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00370.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00370.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00370.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00280.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00280.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00280.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00250.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00250.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00250.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00540.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00540.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00540.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00310.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00310.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00310.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00600.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00600.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00600.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00220.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00220.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00220.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00320.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00320.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00320.jpg'>
-<img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/cezanne2photo/testA/00190.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00190.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00190.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00570.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00570.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00570.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00360.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00360.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00360.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00560.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00560.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00560.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00420.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00420.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00420.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00110.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00110.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00110.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00100.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00100.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00100.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00370.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00370.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00370.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00280.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00280.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00280.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00250.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00250.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00250.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00540.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00540.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00540.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00310.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00310.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00310.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00600.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00600.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00600.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00220.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00220.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00220.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00320.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00320.jpg'> | <img src='../homework4-Bi-Cycle-GAN/CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00320.jpg'>
+<img src='./CycleGAN-tensorflow/datasets/cezanne2photo/testA/00190.jpg'> | <img src='./CycleGAN-tensorflow/datasets/gen_photo2vangogh/testA/AtoB_00190.jpg'> | <img src='./CycleGAN-tensorflow/gen_photo2vangogh_test/AtoB_AtoB_00190.jpg'>
 ### My thoughts
 According to my observation of the downloaded dataset, most of the photo images are scenes rather than real people(human/ human faces) such that the model was hard to catch the human feature and mistook human faces as natural scenes.
 
