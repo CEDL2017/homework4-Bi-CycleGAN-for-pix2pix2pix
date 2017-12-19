@@ -8,7 +8,7 @@
 
 ### What do I modify? 
 
-<code>python train.py --dataroot ./datasets/XXX --name XXX_cyclegan --model cycle_gan</code>
+I simply train two seperate CycleGAN.
 
 ### Qualitative results
 | Model name | Real A | Fake B | Real B | Fake A |
@@ -26,7 +26,7 @@
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
-In the women <-> segmentation transformation, the body segmentation is roughly transformed to the corresponding body (skin, clothes, face). But the image background is noisy and meaningless. I think this is because the images contain only body part segmentaion while no background segmentaion, so learning a structured background is hard for the model. In the child <-> segmentation transformation, the transformation is and 
+In the women <-> segmentation transformation, the body segmentation is roughly transformed to the corresponding body (skin, clothes, face). But the image background is noisy and meaningless. I think this is because the images contain only body part segmentaion while no background segmentaion, so learning a structured background is hard for the model. In the child <-> segmentation transformation, the transformation is poor and I think the training epoch is not enough. 
 
 ### Others
 
