@@ -18,9 +18,9 @@ I simply train two seperate CycleGAN.
 | B<->C | ![](BC/1b.png) | ![](BC/1c.png) | ![](CB/1c.png) | ![](CB/1b.png) |
 | B<->C | ![](BC/2b.png) | ![](BC/2c.png) | ![](CB/2c.png) | ![](CB/2b.png) |
 
-| Model name | Real A | Fake B | Fake C |
+| Model name | Real C | Fake B | Fake A |
 | :--------: | :----: | :----: | :----: |
-| A<->B<->C | ![](sum2win/cherry_pick/epoch189_real_A.png) | ![](sum2win/cherry_pick/epoch189_real_B.png) | ![](sum2win/cherry_pick/epoch189_fake_B.png) |
+| A<->B<->C | ![](CBA/c.png) | ![](CBA/b.png) | ![](CBA/a.png) |
 
 
 ### My thoughts 
