@@ -166,6 +166,7 @@ Some results of two independent CycleGANs
 | ![](img/n02133161_10162_real_A.png) | ![](img/n02133161_10162_fake_B.png) | ![](img/n02133161_10162_fake_C.png) |
 
 Some results of Bi-CycleGans
+
 | Real Black Bear | Fake Brown Bear | Fake Panda |
 | :-----: | :-----: | :-----: |
 | ![](img/n02133161_10136_real_A.png) | ![](img/n02133161_10136_B.png) | ![](img/n02133161_10136_C.png) |
