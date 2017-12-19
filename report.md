@@ -6,8 +6,6 @@
 >Domain B: body part segmenation  
 >Domain C: child pictures    
 
-I trained A<->B and B<->C
-
 ### What do I modify? 
 
 <code>python train.py --dataroot ./datasets/XXX --name XXX_cyclegan --model cycle_gan</code>
