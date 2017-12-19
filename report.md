@@ -6,7 +6,7 @@ Domain-A is some people skin color with tanned or black .<br>
 Domain-B is some people skin color with pale or white.<br>
 Domain-C is some animate character image.<br>
 
-At first I try to tansfer three different race(e.g.Asian-American-Arabian) , and expected to see some facial features changed.<br>
+At first I try to transfer three different race(e.g.Asian-American-Arabian) , and expected to see some facial features changed.<br>
 But after I saw my A-to-B transfer , I thought it just change the color of hair and skin.<br>
 So I decided to change my domain-C into animate.
 ### What do I modify? 
