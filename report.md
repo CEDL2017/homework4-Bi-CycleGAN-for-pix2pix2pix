@@ -15,8 +15,8 @@ I simply train two seperate CycleGAN.
 | :--------: | :----: | :----: | :----: | :----: |
 | A<->B | ![](AB/1a.png) | ![](AB/1b.png) | ![](BA/1b.png) | ![](BA/1a.png) |
 | A<->B | ![](AB/2a.png) | ![](AB/2b.png) | ![](BA/2b.png) | ![](BA/2a.png) |
-| B<->C | ![](CB/1b.png) | ![](CB/1c.png) | ![](BC/1c.png) | ![](BC/1b.png) |
-| B<->C | ![](CB/2b.png) | ![](CB/2c.png) | ![](BC/2c.png) | ![](BC/2b.png) |
+| B<->C | ![](CB/1c.png) | ![](CB/1b.png) | ![](BC/1b.png) | ![](BC/1c.png) |
+| B<->C | ![](CB/2c.png) | ![](CB/2b.png) | ![](BC/2b.png) | ![](BC/2c.png) |
 
 | Model name | Real C | Fake B | Fake A |
 | :--------: | :----: | :----: | :----: |
