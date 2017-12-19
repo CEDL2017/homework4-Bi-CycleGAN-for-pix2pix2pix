@@ -1,5 +1,3 @@
-# DL_HW_1
-
 106062623 楊朝勛
 
 # Homework4 Bi-CycleGAN for Image-to-Image-to-Image Translation
@@ -136,29 +134,39 @@ Run testing.
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_37_10.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_37_10.jpg)
 
-<br/>    
-Summer to Winter
+
+* Summer to Winter
+<br/>
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_57.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_57.jpg)
-
-Winter to Summer
+<br/>
+* Winter to Summer
+<br/>
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeB_0_261.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputB_0_261.jpg)
 <br/>    
-Summer to Fall
+* Summer to Fall
+<br/>
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_126.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_126.jpg)
-
-Fall to Summer
+<br/> 
+* Fall to Summer
+<br/>
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeB_0_19.jpg)
-![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputB_0_19.jpg)
-    
+![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputB_0_19.jpg)    
 <br/>    
-Summer to Fall to Winter
+* Summer to Fall to Winter
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_3.jpg)
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_3.jpg)
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2w/fakeA_0_3.jpg)
-Summer to Winter to Fall
+
+* Summer to Winter to Fall
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_50.jpg)
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2w/fakeA_0_50.jpg)
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_50.jpg)
