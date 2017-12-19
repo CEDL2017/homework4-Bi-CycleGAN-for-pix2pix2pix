@@ -122,30 +122,30 @@ C: rhinoceros
 </tr>
 <tr>
   <td>
-    <img src="report_img/cow_10023_real_B.png" width="20%"/>
+    <img src="report_img/cow_10185_real_B.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10021_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10162_fake_CB.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/cow_10023_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10185_fake_A.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10021_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10162_rec_CBA.png" width="20%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/cow_10047_real_B.png" width="20%"/>
+    <img src="report_img/buffalo_10215_real_C.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10046_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10215_fake_CB.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/cow_10047_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10307_fake_A.png" width="20%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10046_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10215_rec_CBA.png" width="20%"/>
   </td>
 </tr>
 </table>
@@ -290,6 +290,7 @@ C: rhinoceros
 
 ### My thoughts 
 > you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
+<br>
 由於task都是部份區域，而非整張圖片。
 故背景過於雜亂，或前景物體單調到與背景合為一體的輸入，會導致輸出效能較差。
 bi-cycle的loss讓GAN不會學到太偏，補足原本 noisy data 造成的嚴重影響
