@@ -31,5 +31,5 @@ It without the advantage of `cycle GAN`,it need pair data for training , but `Bi
 
 
 ### Reference
-[1]https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
-[2]https://github.com/junyanz/BicycleGAN
+[1]https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix<br>
+[2]https://github.com/junyanz/BicycleGAN<br>
