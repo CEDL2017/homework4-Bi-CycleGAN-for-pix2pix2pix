@@ -1,4 +1,5 @@
 # Homework4 report
+## 何品萱 (106062553)
 
 ### What scenario do I apply in?
 
@@ -58,10 +59,15 @@ Bi-CycleGAN達到同時轉換季節還可以轉換照片風格，增加照片風
 
 ### Qualitative results
 CycleGANs
+
+summer to winter
 <p><img src="imgs/summer2winter.jpg" higth=60% /></p>
+
+winter to vangogh
 <p><img src="imgs/winter2vangogh.jpg" higth=60% /></p>
+
 Bi-CycleGAN
-<p><img src="summer2winter.jpg" width=20% /></p>
+<p><img src="imgs/BiCycleGAN.jpg" higth=80% /></p>
 
 ### My thoughts 
 
