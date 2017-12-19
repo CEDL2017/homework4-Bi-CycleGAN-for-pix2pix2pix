@@ -31,7 +31,7 @@ This block shows vangogh -> photo (first row is real image set and the second ro
 #### (3) bi-cycleGAN
 First row shows real paintings (monet: left two and vangogh: right two). The second row shows results (fake photo) genrated by cycleGAN model and last row shows results (fake photo) genrated by bi-cycleGAN model.   
 
-<img src="imgs/tri-domain/bi2photo.png"  width="800px">
+<img src="imgs/photo2vangogh/bi2photo.png"  width="800px">
 ### My thoughts 
 (1) Some images fail if the target domain is lack of such type of images, e.g. Many indoor objects or human are presented in Van Gogh's painting but very few of such examples in 'photo' dataset. It fails if we transfer a indoor sence painted by Van Gogh to a fake photo. I think the problem can be solved by adding more indoor scene images into our 'photo' dataset. </br> 
 (2) The generated photo reserve parts of original painting's style. Photos transferred by 'Vangogh' are more lighter and colorful, but they become normal as true photos by using bi-cycleGAN. I guess that is effected from joint training, since the discriminater learns more fake examples.            
