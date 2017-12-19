@@ -431,6 +431,24 @@ you can make some comments on the your own homework, e.g. what's the strength? w
 
 <table border=1>
 <tr>
+<td colspan="3">
+Ukiyo-e → Photo
+</td>
+</tr>
+
+<tr>
+<td>
+Input Image
+</td>
+<td>
+Separate Training Result
+</td>
+<td>
+Joint Training Result
+</td>
+</tr>
+
+<tr>
 <td>
 <img src="data/ukiyoe2photo/testA/01277.jpg"/>
 </td>
@@ -444,7 +462,7 @@ you can make some comments on the your own homework, e.g. what's the strength? w
 </table>
 
 - If applying for multiple modalities by constructing Multi-CycleGANs, need to train a very large model.
-	+ Instead, Auxiliary Classifier CycleGANs (StarGAN [4])
+	+ Instead, Multi-Domain Image-to-Image Auxiliary Classifier CycleGANs (StarGAN [4])
 		* Generate images by given certain condition (information) for certain domain
 		* Discriminate real/fake images and Classify images belonging to which domain (condition)
 
