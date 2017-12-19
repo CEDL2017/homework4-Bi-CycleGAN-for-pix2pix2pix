@@ -190,4 +190,4 @@ Brown2Panda loss over time
 **Toward Multimodal Image-to-Image Translation** [[pdf](https://arxiv.org/pdf/1711.11586.pdf)]
 
 ### Note
-The training images was remove from the uploaded contents to avoid the file size becomes **horribly** large. The training images can easily obtain from ImageNet "black bear", "brown bear", and "panda" synsets.
+The training images was removed from the uploaded contents to avoid the file size becomes **horribly** large. The training images can easily obtain from ImageNet "black bear", "brown bear", and "panda" synsets.
