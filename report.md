@@ -31,10 +31,11 @@ you can show some snippet
 
 Cycle GAN : A->B, A:1096 images, B:1096 images
 
-| Domain | real A | fake B | real B |
-| :----: | :-----:| :----: | :----: |
+| Domain | real A | fake B | real B | fake B |
+| :----: | :-----:| :----: | :----: | :----: | 
 | A->B |![](data/data/real_AB1.png)| ![](data/data/fake_BA1.png) | ![](data/data/real_BA1.png) | ![](data/data/fake_AB1.png) |
 | A->B |![](data/data/real_AB2.png)| ![](data/data/fake_BA2.png) | ![](data/data/real_BA2.png) | ![](data/data/fake_AB2.png) |
+
 
 Cycle GAN : A->C, A:1096 images, C:6288 images
 
@@ -42,6 +43,7 @@ Cycle GAN : A->C, A:1096 images, C:6288 images
 | :----: | :-----:| :----: | :----: | :----: | 
 | A->C |![](data/data/real_AC1.png)| ![](data/data/fake_CA1.png) | ![](data/data/real_CA1.png) | ![](data/data/fake_AC1.png) |
 | A->C |![](data/data/real_AC2.png)| ![](data/data/fake_CA2.png) | ![](data/data/real_CA2.png) | ![](data/data/fake_AC2.png) |
+
 
 Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 
@@ -52,8 +54,11 @@ Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 
 ### My thoughts 
 因為一開始train時沒想那麼多,所以C dataset的大小超大,在Bi-Cycle-GAN training的時候因為時間以及資源不足,所以把dataset全部縮小了.
+
 因此導致我覺得Bi-Cycle-GAN的效果沒有分開training來得好.如果有時間希望可以在公平的條件下對比兩者的效能
+
 因為我挑了個原本地圖比較不相干的domain C, 因此產生了許多我覺得很有趣的圖片,在有原本地圖特徵的情況下畫出了一幅還不錯的藝術作品,覺得GAN真的有十分有趣的功能.
+
 ### Others
 
 ### Reference
