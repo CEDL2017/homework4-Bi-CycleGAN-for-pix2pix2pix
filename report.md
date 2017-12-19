@@ -38,11 +38,16 @@ Yosemite Autumn -> Summer -> Winter
 
 - 爬Google image和Flickr的圖片，參考image crawler https://github.com/hellock/icrawler
 - 手動挑掉黑白或是不相關的圖片
+- random 從所有圖中挑出500張當作test data
 
 #### Data Preprocess
 
 - 把爬到的資料轉成256\*256，先把短邊resize到256，再center crop得到256\*256的圖
 
+#### Train 2 cycle
+
+- 為了要做到秋天->夏天->冬天的轉換，我先train一個秋天到夏天的model，再train一個夏天到冬天的轉換
+- 把兩個model 接在一起就可以從秋天轉到冬天
 
 ### Qualitative results
 put some interesting images generated from your Bi-CycleGANs
