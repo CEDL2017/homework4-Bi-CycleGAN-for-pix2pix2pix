@@ -17,19 +17,20 @@ B->A*->B 和 C->B*->C*流程
 
 ### Qualitative results
 model 1:  
-![md1]()
+![md1ms](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer/samples/sample-20000-m-s.png) ![md1sm](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer/samples/sample-20000-s-m.png)  
 Step [20000/20000], d_real_loss: 0.0447, d_mnist_loss: 0.0035, d_svhn_loss: 0.0412, d_fake_loss: 0.0404, g_loss: 1.1687  
 
 model 2:  
-![md2]()  
+![md2ms](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer2/samples/sample-20000-m-s.png) ![md2sm](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer2/samples/sample-20000-s-m.png)  
 Step [20000/20000], d_real_loss: 0.0422, d_mnist_loss: 0.0020, d_svhn_loss: 0.0402, d_fake_loss: 0.0403, g_loss: 1.1395  
 
 model 3:  
-![md3]()
+![md3ms](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer3/samples/sample-20000-m-s.png) ![md3sm](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer3/samples/sample-20000-s-m.png)  
 Step [20000/20000], d_real_loss: 0.0863, d_mnist_loss: 0.0056, d_svhn_loss: 0.0807, d_fake_loss: 0.2429, g_loss: 0.9839  
 
 model 4:  
-![md4_1]() ![md4_2]()    
+![md4ms1](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer4/samples/sample-10000-m-s.png) ![md4sm1](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer4/samples/sample-10000-s-m.png)  
+![md4ms2](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer4/samples/sample2-10000-m-s.png) ![md4sm2](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer4/samples/sample2-10000-s-m.png)  
 Step [10000/10000], d_real_loss: 0.1051, d_mnist_loss: 0.0320, d_svhn_loss: 0.0731, d_fake_loss: 0.0835, g_loss: 1.1164  
 
 ### My thoughts 
@@ -39,7 +40,7 @@ Step [10000/10000], d_real_loss: 0.1051, d_mnist_loss: 0.0320, d_svhn_loss: 0.07
 
 ### Others
 純屬意外的狀況  
-![mdout]()
+![mdout](https://github.com/w95wayne10/homework4-Bi-Cycle-GAN/blob/master/mnist-svhn-transfer4/samples/XDD/sample2-2000-s-m.png)
 
 ### Reference
 [原作者](https://github.com/yunjey/mnist-svhn-transfer)  
