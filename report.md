@@ -17,9 +17,18 @@ I just trained two cycle GAN without Bi-cycle GAN.<br>
 I change the input image size from '256' to '128',and the batch size used 2.<br>
 The other parameter I used default.<br>
 
-
 ### Qualitative results
+A<->B<br>
+<td><img src="1.png" width=900 height=150></td>
+<td><img src="2.png" width=900 height=150></td>
+<td><img src="3.png" width=900 height=150></td>
 
+B-to-C<br>
+<td><img src="4.png" width=900 height=150></td>
+<td><img src="5.png" width=900 height=150></td>
+<td><img src="6.png" width=900 height=150></td>
+
+A disaster...<br>
 
 ### My thoughts 
 I think cycle GAN can process two object with similar geometric structure but only change the color , attribute , style.<br>
