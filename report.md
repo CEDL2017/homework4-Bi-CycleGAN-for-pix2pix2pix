@@ -113,10 +113,10 @@ A: Black_Hair    B: Blond_Hair
 
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
-| ![](cycle1/inputA_0_4.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_4.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_4.jpg) | ![](cycle1/) |
-| ![](cycle1/inputA_0_9.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_9.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_9.jpg) | ![](cycle1/) |
-| ![](cycle1/inputA_0_45.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/) |
-| ![](cycle1/inputA_0_47.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/) |
+| ![](cycle1/inputA_0_4.jpg) | ![](cycle1/inputB_0_0.jpg) | ![](cycle1/fakeA_0_4.jpg) | ![](cycle1/fakeB_0_0.jpg) | ![](cycle1/cycA_0_4.jpg) | ![](cycle1/cycB_0_0.jpg) |
+| ![](cycle1/inputA_0_9.jpg) | ![](cycle1/inputB_0_24.jpg) | ![](cycle1/fakeA_0_9.jpg) | ![](cycle1/fakeB_0_24.jpg) | ![](cycle1/cycA_0_9.jpg) | ![](cycle1/cyc_0_24.jpg) |
+| ![](cycle1/inputA_0_45.jpg) | ![](cycle1/input_0_42.jpg) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/fakeB_0_42.jpg) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/cyc_0_42.jpg) |
+| ![](cycle1/inputA_0_47.jpg) | ![](cycle1/input_0_125.jpg) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/fakeB_0_125.jpg) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/cyc_0_125.jpg) |
 
 * Cycle2
 
@@ -124,10 +124,10 @@ A: Blond_Hair    B: Gray_Hair
 
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
 
 ### Problem 2
 
