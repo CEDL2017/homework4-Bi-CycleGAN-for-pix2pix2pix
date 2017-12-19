@@ -105,7 +105,7 @@ for idx, path in enumerate(test_filenames_black):
 
 Here in problem 1 I train two cycle-GANs separately, which is Black_Hair-to-Blond_Hair and Blond_Hair-to-Gray_Hair. Firstly I resize all the image to 128x128 (at first I use 256x256, however, the error with CUDA_ERROR_OUT_OF_MEMORY will show up). And the batch size is 1. For training, I use 1500 images for each domain; and for testing, I use 200 images respectively.
 
-For black2blond, I trained 100 epochs, and the result looks OK. But for blond2gray, after I trained 100 epochs, there will be some distortion on the human face, the possible reason is that people with gray hair is probably the elder, so this transfer not only change the color of their hair, but also the age the people in the image. So I extend the epoch from 100 to 200. Below shows the qulitative results for the transformation.
+For black2blond, I trained 100 epochs, and the result looks OK. But for blond2gray, after I trained 100 epochs, there will be some distortion on the human face, the possible reason is that people with gray hair is probably the elder, so this transfer not only change the color of their hair, but also the age the people in the image. And I also find there is some mode collapsing, the generated face are the same. Below shows the qulitative results for the transformation.
 
 #### Cycle1 
 
@@ -124,10 +124,10 @@ A: Blond_Hair    B: Gray_Hair
 
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
-| ![](cycle2/inputA_0_.jpg) | ![](cycle2/inputB_0_.jpg) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/fakeB_0_.jpg) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/cycB_0_.jpg) |
+| ![](cycle2/inputA_0_14.jpg) | ![](cycle2/inputB_0_83.jpg) | ![](cycle2/fakeA_0_14.jpg) | ![](cycle2/fakeB_0_83.jpg) | ![](cycle2/cycA_0_14.jpg) | ![](cycle2/cycB_0_83.jpg) |
+| ![](cycle2/inputA_0_49.jpg) | ![](cycle2/inputB_0_102.jpg) | ![](cycle2/fakeA_0_49.jpg) | ![](cycle2/fakeB_0_102.jpg) | ![](cycle2/cycA_0_49.jpg) | ![](cycle2/cycB_0_102.jpg) |
+| ![](cycle2/inputA_0_85.jpg) | ![](cycle2/inputB_0_140.jpg) | ![](cycle2/fakeA_0_85.jpg) | ![](cycle2/fakeB_0_140.jpg) | ![](cycle2/cycA_0_85.jpg) | ![](cycle2/cycB_0_140.jpg) |
+| ![](cycle2/inputA_0_178.jpg) | ![](cycle2/inputB_0_197.jpg) | ![](cycle2/fakeA_0_178.jpg) | ![](cycle2/fakeB_0_197.jpg) | ![](cycle2/cycA_0_178.jpg) | ![](cycle2/cycB_0_197.jpg) |
 
 ### Problem 2
 
