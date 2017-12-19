@@ -196,7 +196,7 @@ fake horse
 
 
 ### My thoughts 
-In this homework, I am confused at the BicycleGAN TA and teacher want and the other one BicycleGAN that introduce in NIPs 2017. I think these two are totally different since one is based on CycleGAN and the other one is based on conditional GANs. What we are doing in this homework is much more similar to [starGAN](https://github.com/yunjey/StarGAN) from my perspective.
+In this homework, I am confused at the BicycleGAN TA and teacher want and the other one BicycleGAN that introduced in NIPs 2017. I think these two are totally different since one is based on CycleGAN and the other one is based on conditional GANs. What we are doing in this homework is much more similar to [starGAN](https://github.com/yunjey/StarGAN) from my perspective.
 
 ### Reference
 [starGAN - Github](https://github.com/yunjey/StarGAN)  
