@@ -6,7 +6,7 @@
 #### Cycle-gan
 使用 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix 的code來產生結果。
 #### Bicycle-gan
-根據 Cycle-gan 再自己另外做些許修改。
+根據 Cycle-gan 再自己另外加了另一個額外的循環，主要添加的循環程式碼如下。
 ### In bicycle-gan what do I modify? 
 #### Discriminator of C
 ```
@@ -38,13 +38,13 @@ pred_fake_BtoC = self.netD_C(fake_C)
 <td><img src="2.png" width=900 height=450></td>
 
 ### My thoughts 
-參考 cycle-gan 之後自己做了code上的修改變成 Bicycle-gan並經過200 epoch training，上面為部分的結果圖(有些圖下面的下標有些許錯，fake_BfromA <--> fake_AfromB, fake_BfromC <--> fake_CfromB)
+參考 cycle-gan 之後自己做了code上的修改變成 Bicycle-gan並經過200 epoch training，上面為部分的結果圖(有些圖下面的下標有錯，如:fake_BfromA <--> fake_AfromB, fake_BfromC <--> fake_CfromB)
         
         
-不過由實驗的結果也可以看出來在兩個方法上雖然有些圖表現得還不錯，但是也有一些圖感覺只是單純地作色彩轉換而已，似乎並沒有取到有效的 feature。   
+雖然有些圖表現得還不錯，不過由實驗的結果我認為 Cycle-gan or Bicycle-gan 似乎比較是針對紋理色彩上的轉換，而不是真正的把一張猩猩的臉變成人臉(或外星人的臉變成猩猩的臉，或許也有可能是我訓練的epoch數不夠多。   
 
 ### Others
-以上所有的順練資料都是從 google上面經過篩選後抓下來的，
+以上所有訓練資料都是從 google圖片上面經過篩選後抓下來的，
 猩猩 815張，人類 554張，外星人 250張
 ### Reference
 https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
