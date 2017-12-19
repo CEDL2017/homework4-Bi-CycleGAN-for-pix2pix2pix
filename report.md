@@ -3,7 +3,7 @@
 ### What scenario do I apply in?
 
 Domain-A is some people skin color with tanned or black .<br>
-Domain-B is some people skin color with white or pale.<br>
+Domain-B is some people skin color with pale or white.<br>
 Domain-C is some animate character image.<br>
 
 At first I try to tansfer three different race(e.g.Asian-American-Arabian) , and expected to see some facial features changed.<br>
