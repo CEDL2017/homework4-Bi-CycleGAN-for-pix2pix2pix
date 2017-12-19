@@ -11,7 +11,10 @@ put some interesting images generated from your Bi-CycleGANs
 
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
-
+1. women <-> segmentation
+2. child <-> segmentation
+  
 ### Others
 
 ### Reference
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
