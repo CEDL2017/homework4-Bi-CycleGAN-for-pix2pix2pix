@@ -29,21 +29,21 @@ you can show some snippet
 
 ### Qualitative results
 
-Cycle GAN : A->B
+Cycle GAN : A->B, A:1096 images, B:1096 images
 
 | Domain | real A | fake B | real B |
 | :----: | :-----:| :----: | :----: |
 | A->B |![](data/data/real_AB1.png)| ![](data/data/fake_BA1.png) | ![](data/data/real_BA1.png) | ![](data/data/fake_AB1.png) |
 | A->B |![](data/data/real_AB2.png)| ![](data/data/fake_BA2.png) | ![](data/data/real_BA2.png) | ![](data/data/fake_AB2.png) |
 
-Cycle GAN : A->C
+Cycle GAN : A->C, A:1096 images, C:6288 images
 
 | Domain | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | 
 | A->C |![](data/data/real_AC1.png)| ![](data/data/fake_CA1.png) | ![](data/data/real_CA1.png) | ![](data/data/fake_AC1.png) |
 | A->C |![](data/data/real_AC2.png)| ![](data/data/fake_CA2.png) | ![](data/data/real_CA2.png) | ![](data/data/fake_AC2.png) |
 
-Bi-Cycle GAN : A->B and A->C
+Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 
 | Domain | real A | fake B | real B | fake A | real A | fake C | real C | fake A |
 | :----: | :-----:| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
