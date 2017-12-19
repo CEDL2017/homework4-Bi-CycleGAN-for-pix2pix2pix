@@ -4,7 +4,7 @@ Here is the [github page]() of my report.
 
 # Homework4 report
 
-##Overview
+## Overview
 
 This project is related to
 * Jun-Yan Zhu, Taesung Park, Phillip Isola, Alexei A. Efros, "Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks", ICCV 2017
@@ -13,7 +13,7 @@ This project is related to
 
 >With CycleGAN, we can better transfer the styles of images from domain A to domain B and vice versa without unpaired data. What will it be if we have two cycles (A, B) and (B, C) where B is the common modality shared by the two cycles?
 
-##Implementation
+## Implementation
 
 In this project we have to find a dataset and use the idea of cycle-GAN to do the style transfer. The main idea is to train two cycle-GAN, which is A -> B -> A' and B -> C -> B'. Here I found some interest from "StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation", which is a pretty new paper with amazing results. I use one of the dataset which they have used in their work called "CelebA", which collects many different images with people in different style, and label them with 40 attributes such as Black_Hair, Male, Brown_Hair, Pale, Chubby etc. Since each image may have multiple attributes, for example, a people with black is probably a man, so I choose three domain that are Black_Hair, Blond_Hair and Gray_Hair in order to let each image only occur in one domain.
 
@@ -80,14 +80,14 @@ for idx, path in enumerate(test_filenames_black):
     image.save('/home/petersci/CycleGAN_TensorFlow/input/CelebA/Black_Hair_test/'+str(idx)+'.jpg')
 ```
 
-##Installation
+## Installation
 
-###Dependencies
+### Dependencies
 
 * Tensorflow
 * Python3.5
 
-###Getting Started
+### Getting Started
 
 For the starter code, I use Tensorflow implementation of CycleGANs by Harry Yang.
 
@@ -107,7 +107,7 @@ Follow the instruction [here](https://github.com/leehomyc/cyclegan-1) for traini
 
 If you want to test my result, use the checkpoint in black2blond_ckpt and blond2gray_ckpt and do the testing.
 
-##Results
+## Results
 
 ### What scenario do I apply in?
 you are encouraged to elaborate the motivation here
