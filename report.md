@@ -161,16 +161,35 @@ fake horse
 <table border=1>
 <tr>
 <td>
-<img src="imgs/zebra2lion/real_zebra3.jpg"/>
+<img src="imgs/horse2zebra2lion/real_horse1.jpg"/>
 </td>
 <td>
-<img src="imgs/zebra2lion/fake_lion3.jpg"/>
+<img src="imgs/horse2zebra2lion/fake_zebra1.jpg"/>
 </td>
 <td>
-<img src="imgs/lion2zebra/lion3.jpg"/>
+<img src="imgs/horse2zebra2lion/test1.jpg"/>
+</td>
+</tr>
+ <tr>
+<td>
+<img src="imgs/horse2zebra2lion/real_horse2.jpg"/>
 </td>
 <td>
-<img src="imgs/lion2zebra/zebra3.jpg"/>
+<img src="imgs/horse2zebra2lion/fake_zebra2.jpg"/>
+</td>
+<td>
+<img src="imgs/horse2zebra2lion/test2.jpg"/>
+</td>
+</tr>
+ <tr>
+<td>
+<img src="imgs/horse2zebra2lion/real_horse3.jpg"/>
+</td>
+<td>
+<img src="imgs/horse2zebra2lion/fake_zebra3.jpg"/>
+</td>
+<td>
+<img src="imgs/horse2zebra2lion/test3.jpg"/>
 </td>
 </tr>
 </table>
