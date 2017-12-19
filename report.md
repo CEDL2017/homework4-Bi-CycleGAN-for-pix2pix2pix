@@ -2,7 +2,7 @@
 
 ### What scenario do I apply in?
 
-利用CycleGAN處理unpaired image-to-image translation的問題。原本CycleGAN的方法目標是轉換`A``B`兩個domain的image，目標是先學習`G：A → B`，使得 G（A）生成出來的image的distribution與使用adversarial loss的distribution `B`無法區分，接著利用反向mapping`F : B → A`和cycle consistency loss讓 F(G(A)) 與原本`A`越相似。
+利用CycleGAN處理unpaired image-to-image translation的問題。原本CycleGAN的方法目標是轉換`A` `B`兩個domain的image，目標是先學習`G : A → B`，使得 G(A)生成出來的image的distribution與使用adversarial loss的distribution `B`無法區分，接著利用反向mapping`F : B → A`和cycle consistency loss讓 F(G(A)) 與原本`A`越相似。
 
 本次作業目標實作BicycleGAN，達到cycles: `A -> B' -> A'` 和 `B -> C' -> B'`
 
@@ -22,8 +22,8 @@ loss function
 
 ### Qualitative results
 CycleGANs
-<p><img src="summer2winter.jpg" width=20% /></p>
-<p><img src="winter2vangogh.jpg" width=20% /></p>
+<p><img src="imgs/summer2winter.jpg" higth=60% /></p>
+<p><img src="imgs/winter2vangogh.jpg" higth=60% /></p>
 Bi-CycleGAN
 <p><img src="summer2winter.jpg" width=20% /></p>
 
