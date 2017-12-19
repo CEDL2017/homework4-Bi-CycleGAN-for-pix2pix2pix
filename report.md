@@ -77,6 +77,7 @@ fake horse
 <img src="imgs/zebra2horse/fake_horse3.jpg"/>
 </td>
 </tr>
+</table>
 
 #### zebra <-> lion
 <table border=1>
@@ -148,6 +149,9 @@ fake horse
 <img src="imgs/lion2zebra/zebra3.jpg"/>
 </td>
 </tr>
+</table>
+
+
 
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
