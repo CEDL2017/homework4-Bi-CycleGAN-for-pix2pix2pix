@@ -306,6 +306,6 @@ bi-cycle的loss讓GAN不會學到太偏，補足原本 noisy data 造成的嚴�
 ### Others
 
 ### Reference
-CycleGan: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+CycleGan: https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix  
 Animals with Attributes 2: https://cvml.ist.ac.at/AwA2/
 
