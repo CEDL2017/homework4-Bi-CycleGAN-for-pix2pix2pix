@@ -35,36 +35,36 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10677_real_B.png" width="20%"/>
+    <img src="report_img/buffalo_10677_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10677_fake_BA.png" width="20%"/>
+    <img src="report_img/buffalo_10677_fake_BA.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10677_fake_A.png" width="20%"/>
+    <img src="report_img/buffalo_10677_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10677_fake_BC.png" width="20%"/>
+    <img src="report_img/buffalo_10677_fake_BC.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_11113_fake_B.png" width="20%"/>
+    <img src="report_img/cow_11113_fake_B.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10215_real_B.png" width="20%"/>
+    <img src="report_img/buffalo_10215_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10215_fake_BA.png" width="20%"/>
+    <img src="report_img/buffalo_10215_fake_BA.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10215_fake_A.png" width="20%"/>
+    <img src="report_img/buffalo_10215_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10215_fake_BC.png" width="20%"/>
+    <img src="report_img/buffalo_10215_fake_BC.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10307_fake_B.png" width="20%"/>
+    <img src="report_img/cow_10307_fake_B.png" width="100%"/>
   </td>
 </tr>
 <tr>
@@ -83,30 +83,30 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10834_real_A.png" width="20%"/>
+    <img src="report_img/buffalo_10834_real_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10834_fake_AB.png" width="20%"/>
+    <img src="report_img/buffalo_10834_fake_AB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10834_fake_B.png" width="20%"/>
+    <img src="report_img/buffalo_10834_fake_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10834_rec_ABC.png" width="20%"/>
+    <img src="report_img/buffalo_10834_rec_ABC.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10090_real_A.png" width="20%"/>
+    <img src="report_img/buffalo_10090_real_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10090_fake_AB.png" width="20%"/>
+    <img src="report_img/buffalo_10090_fake_AB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10090_fake_B.png" width="20%"/>
+    <img src="report_img/buffalo_10090_fake_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10090_rec_ABC.png" width="20%"/>
+    <img src="report_img/buffalo_10090_rec_ABC.png" width="100%"/>
   </td>
 </tr>
 <tr>
@@ -125,30 +125,30 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/cow_10185_real_B.png" width="20%"/>
+    <img src="report_img/cow_10185_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10162_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10162_fake_CB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10185_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10185_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10162_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10162_rec_CBA.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10215_real_C.png" width="20%"/>
+    <img src="report_img/buffalo_10215_real_C.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10215_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10215_fake_CB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10307_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10307_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10215_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10215_rec_CBA.png" width="100%"/>
   </td>
 </tr>
 </table>
@@ -173,36 +173,36 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10743_real_B.png" width="20%"/>
+    <img src="report_img/buffalo_10743_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10743_fake_BA.png" width="20%"/>
+    <img src="report_img/buffalo_10743_fake_BA.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10743_fake_A.png" width="20%"/>
+    <img src="report_img/buffalo_10743_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10743_fake_BC.png" width="20%"/>
+    <img src="report_img/buffalo_10743_fake_BC.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_11149_fake_B.png" width="20%"/>
+    <img src="report_img/cow_11149_fake_B.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10196_real_B.png" width="20%"/>
+    <img src="report_img/buffalo_10196_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10196_fake_BA.png" width="20%"/>
+    <img src="report_img/buffalo_10196_fake_BA.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10196_fake_A.png" width="20%"/>
+    <img src="report_img/buffalo_10196_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10196_fake_BC.png" width="20%"/>
+    <img src="report_img/buffalo_10196_fake_BC.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10305_fake_B.png" width="20%"/>
+    <img src="report_img/cow_10305_fake_B.png" width="100%"/>
   </td>
 </tr>
 <tr>
@@ -221,30 +221,30 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10754_real_A.png" width="20%"/>
+    <img src="report_img/buffalo_10754_real_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10754_fake_AB.png" width="20%"/>
+    <img src="report_img/buffalo_10754_fake_AB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10754_fake_B.png" width="20%"/>
+    <img src="report_img/buffalo_10754_fake_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10754_rec_ABC.png" width="20%"/>
+    <img src="report_img/buffalo_10754_rec_ABC.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/buffalo_10594_real_A.png" width="20%"/>
+    <img src="report_img/buffalo_10594_real_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10594_fake_AB.png" width="20%"/>
+    <img src="report_img/buffalo_10594_fake_AB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10594_fake_B.png" width="20%"/>
+    <img src="report_img/buffalo_10594_fake_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10594_rec_ABC.png" width="20%"/>
+    <img src="report_img/buffalo_10594_rec_ABC.png" width="100%"/>
   </td>
 </tr>
 <tr>
@@ -263,30 +263,30 @@ Why: 預想是讓其他牛加上乳牛花紋、氂牛的毛、或者犀牛的角
 </tr>
 <tr>
   <td>
-    <img src="report_img/cow_10023_real_B.png" width="20%"/>
+    <img src="report_img/cow_10023_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10021_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10021_fake_CB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10023_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10023_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10021_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10021_rec_CBA.png" width="100%"/>
   </td>
 </tr>
 <tr>
   <td>
-    <img src="report_img/cow_10047_real_B.png" width="20%"/>
+    <img src="report_img/cow_10047_real_B.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10046_fake_CB.png" width="20%"/>
+    <img src="report_img/buffalo_10046_fake_CB.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/cow_10047_fake_A.png" width="20%"/>
+    <img src="report_img/cow_10047_fake_A.png" width="100%"/>
   </td>
   <td>
-    <img src="report_img/buffalo_10046_rec_CBA.png" width="20%"/>
+    <img src="report_img/buffalo_10046_rec_CBA.png" width="100%"/>
   </td>
 </tr>
 </table>
