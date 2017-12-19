@@ -113,10 +113,10 @@ A: Black_Hair    B: Blond_Hair
 
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
-| Kitchen | ![](thumbnails/Kitchen_train_image_0001.jpg) | ![](thumbnails/Kitchen_TP_image_0192.jpg) | ![](thumbnails/Kitchen_FP_image_0024.jpg) | ![](thumbnails/Kitchen_FN_image_0190.jpg) |
-| Store | ![](thumbnails/Store_train_image_0001.jpg) | ![](thumbnails/Store_TP_image_0151.jpg) | ![](thumbnails/Store_FP_image_0026.jpg) | ![](thumbnails/Store_FN_image_0149.jpg) |
-| Bedroom | ![](thumbnails/Bedroom_train_image_0001.jpg) | ![](thumbnails/Bedroom_TP_image_0180.jpg) | ![](thumbnails/Bedroom_FP_image_0007.jpg) | ![](thumbnails/Bedroom_FN_image_0175.jpg) |
-| LivingRoom | ![](thumbnails/LivingRoom_train_image_0001.jpg) | ![](thumbnails/LivingRoom_TP_image_0147.jpg) | ![](thumbnails/LivingRoom_FP_image_0149.jpg) | ![](thumbnails/LivingRoom_FN_image_0146.jpg) |
+| ![](cycle1/inputA_0_4.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_4.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_4.jpg) | ![](cycle1/) |
+| ![](cycle1/inputA_0_9.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_9.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_9.jpg) | ![](cycle1/) |
+| ![](cycle1/inputA_0_45.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/) |
+| ![](cycle1/inputA_0_47.jpg) | ![](cycle1/) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/) |
 
 * Cycle2
 
@@ -124,10 +124,10 @@ A: Blond_Hair    B: Gray_Hair
 
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
-| Kitchen | ![](thumbnails/Kitchen_train_image_0001.jpg) | ![](thumbnails/Kitchen_TP_image_0192.jpg) | ![](thumbnails/Kitchen_FP_image_0024.jpg) | ![](thumbnails/Kitchen_FN_image_0190.jpg) |
-| Store | ![](thumbnails/Store_train_image_0001.jpg) | ![](thumbnails/Store_TP_image_0151.jpg) | ![](thumbnails/Store_FP_image_0026.jpg) | ![](thumbnails/Store_FN_image_0149.jpg) |
-| Bedroom | ![](thumbnails/Bedroom_train_image_0001.jpg) | ![](thumbnails/Bedroom_TP_image_0180.jpg) | ![](thumbnails/Bedroom_FP_image_0007.jpg) | ![](thumbnails/Bedroom_FN_image_0175.jpg) |
-| LivingRoom | ![](thumbnails/LivingRoom_train_image_0001.jpg) | ![](thumbnails/LivingRoom_TP_image_0147.jpg) | ![](thumbnails/LivingRoom_FP_image_0149.jpg) | ![](thumbnails/LivingRoom_FN_image_0146.jpg) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
+| ![](cycle2/inputA_0_.jpg) | ![](cycle2/) | ![](cycle2/fakeA_0_.jpg) | ![](cycle2/) | ![](cycle2/cycA_0_.jpg) | ![](cycle2/) |
 
 ### Problem 2
 
