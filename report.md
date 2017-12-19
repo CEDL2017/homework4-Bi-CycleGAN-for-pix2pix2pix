@@ -15,8 +15,8 @@ I simply train two seperate CycleGAN.
 | :--------: | :----: | :----: | :----: | :----: |
 | A<->B | ![](AB/1a.png) | ![](AB/1b.png) | ![](BA/1b.png) | ![](BA/1a.png) |
 | A<->B | ![](AB/2a.png) | ![](AB/2b.png) | ![](BA/2b.png) | ![](BA/2a.png) |
-| B<->C | ![](BC/1b.png) | ![](BC/1c.png) | ![](CB/1c.png) | ![](CB/1b.png) |
-| B<->C | ![](BC/2b.png) | ![](BC/2c.png) | ![](CB/2c.png) | ![](CB/2b.png) |
+| B<->C | ![](CB/1b.png) | ![](CB/1c.png) | ![](BC/1c.png) | ![](BC/1b.png) |
+| B<->C | ![](CB/2b.png) | ![](CB/2c.png) | ![](BC/2c.png) | ![](BC/2b.png) |
 
 | Model name | Real C | Fake B | Fake A |
 | :--------: | :----: | :----: | :----: |
@@ -24,7 +24,6 @@ I simply train two seperate CycleGAN.
 
 
 ### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
 
 In the women <-> segmentation transformation, the body segmentation is roughly transformed to the corresponding body (skin, clothes, face). But the image background is noisy and meaningless. I think this is because the images contain only body part segmentaion while no background segmentaion, so learning a structured background is hard for the model. In the child <-> segmentation transformation, the transformation is poor and I think the training epoch is not enough. 
 
