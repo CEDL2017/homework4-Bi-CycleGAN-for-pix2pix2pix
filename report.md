@@ -15,9 +15,45 @@ Bi-CycleGAN達到同時轉換季節還可以轉換照片風格，增加照片風
 
 先分別train兩個CycleGANs，一個將夏季影像轉換成冬季，另一個將冬季影像轉換成Van Gogh圖畫風格。接著修改CycleGAN的loss function，將兩個Cycles`A <-> B` 和`B <-> C`一起訓練。
 
-loss function
-```
+`cycle_gan_model.py` loss function
 
+```
+        # GAN loss D_A(G_A(A))
+        fake_B = self.netG_A(self.real_A)
+        pred_fake = self.netD_A(fake_B)
+        loss_G_A = self.criterionGAN(pred_fake, True)
+
+        # GAN loss D_B(G_B(B))
+        fake_A = self.netG_B(self.real_B)
+        pred_fake = self.netD_B(fake_A)
+        loss_G_B = self.criterionGAN(pred_fake, True)
+        
+        # GAN loss D_C(G_C(C))
+        fake_B = self.netG_C(self.real_C)
+        pred_fake = self.netD_C(fake_B)
+        loss_G_C = self.criterionGAN(pred_fake, True)
+        
+        # GAN loss D_BC(G_C(B))
+        fake_C = self.netG_BC(self.real_B)
+        pred_fake = self.netD_C(fake_B)
+        loss_G_BC = self.criterionGAN(pred_fake, True)
+        #fake_C = fake_A
+
+        # Forward cycle loss
+        rec_A = self.netG_B(fake_B)
+        loss_cycle_A = self.criterionCycle(rec_A, self.real_A) * lambda_A
+        rec_BC = self.netG_C(fake_C)
+        loss_cycle_BC = self.criterionCycle(rec_BC, self.real_B) * lambda_A
+
+        # Backward cycle loss
+        rec_B = self.netG_A(fake_A)
+        loss_cycle_B = self.criterionCycle(rec_B, self.real_B) * lambda_B
+        rec_C = self.netG_BC(fake_B)
+        loss_cycle_C = self.criterionCycle(rec_C, self.real_C) * lambda_B
+        
+        # combined loss
+        loss_G = loss_G_A + loss_G_B + loss_G_C + loss_G_BC + loss_cycle_A + loss_cycle_BC + loss_cycle_B + loss_cycle_C + loss_idt_A + loss_idt_B + loss_idt_BC + loss_idt_C
+        loss_G.backward()
 ```
 
 ### Qualitative results
@@ -28,7 +64,8 @@ Bi-CycleGAN
 <p><img src="summer2winter.jpg" width=20% /></p>
 
 ### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
+
+由於時間和資源限制，BicycleGAN的performance與預期有落差，loss function部分可能還要再增加或調整。
 
 ### Others
 
