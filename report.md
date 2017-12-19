@@ -60,6 +60,7 @@ Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 因為我挑了個原本地圖比較不相干的domain C, 因此產生了許多我覺得很有趣的圖片,在有原本地圖特徵的情況下畫出了一幅還不錯的藝術作品,覺得GAN真的有十分有趣的功能.
 
 ### Others
+dataset https://drive.google.com/file/d/19e7dKNntRJJ3DD_wUCiTWnsEVV0eRDCF/view?usp=sharing
 
 ### Reference
 J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. Unpaired image-to-image translation using cycle-consistent adversarial networks. In ICCV, 2017.
