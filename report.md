@@ -2,10 +2,13 @@
 
 ### What scenario do I apply in?
 I downloaded the datasets from Imagenet ([Orange](http://www.image-net.org/synset?wnid=n07747607), [Tangerine](http://www.image-net.org/synset?wnid=n07748416), [Grapefruit](http://www.image-net.org/synset?wnid=n07749969)).
-| Orange | Tangerine | Grapefruit |
-|:-----:|:---:|:----:|
-| 1444 | 1219 | 1188 |
-|![](./img/orange_sample.jpg)|![](./img/tangerine_sample.jpg)|![](./img/grapefruit_sample.jpg)|
+
+
+Orange | Tangerine | Grapefruit
+--- | --- | ---
+1444 | 1219 | 1188
+![](./img/orange_sample.jpg)|![](./img/tangerine_sample.jpg)|![](./img/grapefruit_sample.jpg)
+
 At first glance, an orange, a tangerine, and a grapefruit look very similar. All are orange in color, and grow on trees. (All are varieties of citrus fruit). For the untrained eyes, it can be  very confusing. While there are still some differences that allow people to tell them apart. After a human beings learned the characteristics of the orange, the tangerine, and the grapefruit, they would not be easily fooled again. How about GAN? We all know that a trained GAN can generate realistic images, but can GAN discover the difference and learn the pattern?
 
 ### What do I modify? 
