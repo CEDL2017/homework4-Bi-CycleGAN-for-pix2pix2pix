@@ -10,7 +10,9 @@
 I simply train two seperate CycleGAN using this [Tensorflow implementation](https://github.com/vanhuyz/CycleGAN-TensorFlow) and download the images of lion from ImageNet dataset. 
 
 #### Jointly training
-I try to modified the code based on the CycleGAN above, and first thing is to define two cycle in the model. Then we define loss to improve the performance by adding bi-direction loss: `X<->Y & Y<->Z`, which shared Y domain.
+I try to modified the code based on the CycleGAN above, and first thing is to define two cycle in the model. Then we define loss to improve the performance by adding bi-direction loss: `X<->Y & Y<->Z`, which shared Y domain. Note that, we share the discriminator of Y, so discriminator Y will do the job both from X->Y and Z->Y. 
+I think maybe we can add the loss `X->Y->Z & Z->Y->X` in the future so as to improve the performance of X->Z.
+
 ```python
 
 # X <-> Y
