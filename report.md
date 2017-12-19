@@ -58,7 +58,8 @@ Bi-CycleGAN達到同時轉換季節還可以轉換照片風格，增加照片風
 ```
 
 ### Qualitative results
-CycleGANs
+
+##### CycleGANs
 
 summer to winter
 <p><img src="imgs/summer2winter.jpg" higth=60% /></p>
@@ -66,7 +67,7 @@ summer to winter
 winter to vangogh
 <p><img src="imgs/winter2vangogh.jpg" higth=60% /></p>
 
-Bi-CycleGAN
+##### Bi-CycleGAN
 <p><img src="imgs/BiCycleGAN.jpg" higth=80% /></p>
 
 ### My thoughts 
