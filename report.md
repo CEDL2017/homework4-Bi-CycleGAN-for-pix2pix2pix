@@ -20,9 +20,9 @@ I trained A<->B and B<->C
 | B<->C | ![](sum2flower/cherry_pick/epoch054_real_A.png) | ![](sum2flower/cherry_pick/epoch054_real_B.png) | ![](sum2flower/cherry_pick/epoch054_fake_B.png) | ![](sum2flower/cherry_pick/epoch054_fake_A.png) |
 | B<->C | ![](sum2flower/cherry_pick/epoch057_real_A.png) | ![](sum2flower/cherry_pick/epoch057_real_B.png) | ![](sum2flower/cherry_pick/epoch057_fake_B.png) | ![](sum2flower/cherry_pick/epoch057_fake_A.png) |
 
-| Model name | Real A | Real B | Fake B | Fake A |
-| :--------: | :----: | :----: | :----: | :----: |
-| A<->B<->C | ![](sum2win/cherry_pick/epoch189_real_A.png) | ![](sum2win/cherry_pick/epoch189_real_B.png) | ![](sum2win/cherry_pick/epoch189_fake_B.png) | ![](sum2win/cherry_pick/epoch189_fake_A.png) |
+| Model name | Real A | Fake B | Fake C |
+| :--------: | :----: | :----: | :----: |
+| A<->B<->C | ![](sum2win/cherry_pick/epoch189_real_A.png) | ![](sum2win/cherry_pick/epoch189_real_B.png) | ![](sum2win/cherry_pick/epoch189_fake_B.png) |
 
 
 ### My thoughts 
