@@ -107,7 +107,7 @@ Here in problem 1 I train two cycle-GANs separately, which is Black_Hair-to-Blon
 
 For black2blond, I trained 100 epochs, and the result looks OK. But for blond2gray, after I trained 100 epochs, there will be some distortion on the human face, the possible reason is that people with gray hair is probably the elder, so this transfer not only change the color of their hair, but also the age the people in the image. So I extend the epoch from 100 to 200. Below shows the qulitative results for the transformation.
 
-* Cycle1 
+#### Cycle1 
 
 A: Black_Hair    B: Blond_Hair
 
@@ -118,7 +118,7 @@ A: Black_Hair    B: Blond_Hair
 | ![](cycle1/inputA_0_45.jpg) | ![](cycle1/inputB_0_42.jpg) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/fakeB_0_42.jpg) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/cycB_0_42.jpg) |
 | ![](cycle1/inputA_0_47.jpg) | ![](cycle1/inputB_0_125.jpg) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/fakeB_0_125.jpg) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/cycB_0_125.jpg) |
 
-* Cycle2
+#### Cycle2
 
 A: Blond_Hair    B: Gray_Hair
 
