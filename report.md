@@ -1,7 +1,7 @@
 # Homework4 report
 
 ### What scenario do I apply in?
-you are encouraged to elaborate the motivation here
+
 >Domain A: women pictures   
 >Domain B: body part segmenation  
 >Domain C: child pictures    
@@ -10,6 +10,8 @@ I trained A<->B and B<->C
 
 ### What do I modify? 
 you can show some snippet
+
+<code>python train.py --dataroot ./datasets/XXX --name XXX_cyclegan --model cycle_gan</code>
 
 ### Qualitative results
 | Model name | Real A | Real B | Fake B | Fake A |
@@ -24,6 +26,7 @@ you can show some snippet
 
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
+In the women <-> segmentation transformation, the body segmentation is roughly transformed to the corresponding body (skin, clothes, face). But the image background is noisy and meaningless. I think this is because the images contain only body part segmentaion while no background segmentaion, so learning a structured background is hard for the model.
 1. women <-> segmentation
 2. child <-> segmentation
   
