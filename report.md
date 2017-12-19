@@ -1,12 +1,16 @@
 # Homework4 report
 
 ### What scenario do I apply in?
->X: horse
->Y: zebre
->Z: lion
+>X: horse  
+>Y: zebre  
+>Z: lion  
 
 ### What do I modify? 
-you can show some snippet
+#### Separate training
+I simply train two seperate CycleGAN using this [Tensorflow implementation](https://github.com/vanhuyz/CycleGAN-TensorFlow) and download the images of lion from ImageNet dataset. 
+
+#### Jointly training
+I try to modified the code based on the CycleGAN above, and first thing is to define two cycle in the model. Then we define loss to improve the performance by adding bi-direction loss: `X<->Y & Y<->Z`, which shared Y domain.
 
 ### Qualitative results
 #### horse <-> zebra
@@ -154,8 +158,7 @@ fake horse
 </table>
 
 ### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
-
+In this homework, I think I am confused at the BiCycleGAN TA and teacher want and the other one BicycleGAN that introduce in NIPs 2017. I think these two are totally different since one is based on CycleGAN and the other one is based on conditional GANs. What we are doing in this homework is much more similar to [starGAN](https://github.com/yunjey/StarGAN) from my perspective.
 ### Others
 
 ### Reference
