@@ -27,9 +27,10 @@ pred_fake_BtoC = self.netD_C(fake_C)
 
 ### Qualitative results
 #### Cycle-gan
-<td><img src="" width=900 height=450></td>
-<td><img src="" width=900 height=450></td>
-<td><img src="" width=900 height=450></td>
+外星人-猩猩
+<td><img src="4.png" width=900 height=450></td>
+人類-猩猩
+<td><img src="5.png" width=900 height=450></td>
 
 #### Bicycle-gan
 <td><img src="2017-12-15 13-23-35 的螢幕擷圖.png" width=900 height=450></td>
