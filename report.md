@@ -28,6 +28,14 @@ you can show some snippet
                  loss_cycle_AC + loss_cycle_C + loss_idt_AC + loss_idt_C
 
 ### Qualitative results
+| Domain | real A | fake B | real B | fake A | real A | fake C | real C | fake A |
+| :----: | :-----:| :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| A->B |0.65| ![](thumbnails/data/data/realAB1.png) | ![](thumbnails/Kitchen_TP_image_0051.jpg) | ![](thumbnails/Kitchen_FP_image_0197.jpg) | ![](thumbnails/Kitchen_FN_image_0111.jpg) |
+| A->B |0.54| ![](thumbnails/Store_train_image_0298.jpg) | ![](thumbnails/Store_TP_image_0099.jpg) | ![](thumbnails/Store_FP_image_0251.jpg) | ![](thumbnails/Store_FN_image_0090.jpg) |
+| A->C |0.49| ![](thumbnails/Bedroom_train_image_0143.jpg) | ![](thumbnails/Bedroom_TP_image_0215.jpg) | ![](thumbnails/Bedroom_FP_image_0338.jpg) | ![](thumbnails/Bedroom_FN_image_0016.jpg) |
+| A->C |0.94| ![](thumbnails/Office_train_image_0149.jpg) | ![](thumbnails/Office_TP_image_0183.jpg) | ![](thumbnails/Office_FP_image_0356.jpg) | ![](thumbnails/Office_FN_image_0127.jpg) |
+| A->B->C |0.99| ![](thumbnails/Suburb_train_image_0157.jpg) | ![](thumbnails/Suburb_TP_image_0034.jpg) | ![](thumbnails/Suburb_FP_image_0180.jpg) | ![](thumbnails/Suburb_FN_image_0053.jpg) |
+| A->B->C |0.62| ![](thumbnails/InsideCity_train_image_0143.jpg) | ![](thumbnails/InsideCity_TP_image_0060.jpg) | ![](thumbnails/InsideCity_FP_image_0029.jpg) | ![](thumbnails/InsideCity_FN_image_0084.jpg) |
 
 
 ### My thoughts 
