@@ -136,25 +136,25 @@ Run testing.
 
 
 * Summer to Winter
-<br/>
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_57.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_57.jpg)
-<br/>
+
 * Winter to Summer
-<br/>
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeB_0_261.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputB_0_261.jpg)
-<br/>    
+  
 * Summer to Fall
-<br/>
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeA_0_126.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_126.jpg)
-<br/> 
+
 * Fall to Summer
-<br/>
+
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/fakeB_0_19.jpg)
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputB_0_19.jpg)    
-<br/>    
+  
 * Summer to Fall to Winter
 
 ![](https://github.com/sun52525252/homework4-Bi-Cycle-GAN/blob/master/result/s2f/inputA_0_3.jpg)
