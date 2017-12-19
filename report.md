@@ -24,7 +24,7 @@ I didn't modify the cyclegan network. I only changed some parameters in the base
 
 
 ### Qualitative results
-I put the results under homework4-Bi-Cycle-GAN.
+I put the results under homework4-Bi-Cycle-GAN/results.
 
 ### My thoughts 
 I think data collection plays an important role in cyclegan. If the background is too complicated, the network will be hard to transform. Also, the main objects between each domain should share a quite similar geometrical shape or simply the contours.
