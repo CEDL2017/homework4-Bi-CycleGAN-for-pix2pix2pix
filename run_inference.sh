@@ -1,7 +1,7 @@
 export CUDA_VISIBLE_DEVICES=0 # only use 1 gpu
 
-dataA=photo
-dataB=monet
+dataA=$1 #photo
+dataB=$2 #monet
 
 AtoB=${dataA}2${dataB}
 AtoB_model=pretrained/${AtoB}.pb

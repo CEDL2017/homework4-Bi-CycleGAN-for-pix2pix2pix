@@ -1,5 +1,5 @@
-dataA=ukiyoe
-dataB=photo
+dataA=$1 #ukiyoe
+dataB=$2 #photo
 
 X_input_dir=data/${dataA}2${dataB}/trainB
 Y_input_dir=data/${dataA}2${dataB}/trainA
