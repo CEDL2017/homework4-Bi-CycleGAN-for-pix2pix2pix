@@ -51,8 +51,11 @@ Bi-Cycle GAN : A->B and A->C, A:832 images, B:875 images, C:822 images
 | A->B and A->C |![](data/data/epoch095_real_A.png)| ![](data/data/epoch095_fake_B.png) | ![](data/data/epoch095_real_B.png) | ![](data/data/epoch095_fake_A.png) |![](data/data/epoch095_real_AC.png)| ![](data/data/epoch095_fake_C.png) | ![](data/data/epoch095_real_C.png) | ![](data/data/epoch095_fake_CA.png) |
 
 ### My thoughts 
-you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
-
+因為一開始train時沒想那麼多,所以C dataset的大小超大,在Bi-Cycle-GAN training的時候因為時間以及資源不足,所以把dataset全部縮小了.
+因此導致我覺得Bi-Cycle-GAN的效果沒有分開training來得好.如果有時間希望可以在公平的條件下對比兩者的效能
+因為我挑了個原本地圖比較不相干的domain C, 因此產生了許多我覺得很有趣的圖片,在有原本地圖特徵的情況下畫出了一幅還不錯的藝術作品,覺得GAN真的有十分有趣的功能.
 ### Others
 
 ### Reference
+J.-Y. Zhu, T. Park, P. Isola, and A. A. Efros. Unpaired image-to-image translation using cycle-consistent adversarial networks. In ICCV, 2017.
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
