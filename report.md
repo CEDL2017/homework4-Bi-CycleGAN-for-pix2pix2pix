@@ -57,6 +57,8 @@ Bi-CycleGAN達到同時轉換季節還可以轉換照片風格，增加照片風
         loss_G.backward()
 ```
 
+datasets: https://drive.google.com/open?id=1DakTPubdnt8eI0qZQiKjaoLkq2pYcZcR
+
 ### Qualitative results
 
 ##### CycleGANs
