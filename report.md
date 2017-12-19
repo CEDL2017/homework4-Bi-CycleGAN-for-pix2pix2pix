@@ -23,7 +23,7 @@ A<->B<br>
 <td><img src="2.png" width=900 height=150></td>
 <td><img src="3.png" width=900 height=150></td>
 
-B-to-C<br>
+B<->C<br>
 <td><img src="4.png" width=900 height=150></td>
 <td><img src="5.png" width=900 height=150></td>
 <td><img src="6.png" width=900 height=150></td>
