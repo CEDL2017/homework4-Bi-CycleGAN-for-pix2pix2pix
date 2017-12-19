@@ -25,7 +25,7 @@ D_Y_loss = self.discriminator_loss(self.D_Y, y, self.fake_y, use_lsgan=self.use_
 # Y -> X
 fake_x = self.F(y)
 F_gan_loss = self.generator_loss(self.D_X, fake_x, use_lsgan=self.use_lsgan)
-F_loss = F_gan_loss + cycle_loss
+F_loss = F_gan_loss + cycle_loss_xy
 D_X_loss = self.discriminator_loss(self.D_X, x, self.fake_x, use_lsgan=self.use_lsgan)
 
 # Y <-> Z
