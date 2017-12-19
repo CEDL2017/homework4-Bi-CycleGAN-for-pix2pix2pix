@@ -114,9 +114,9 @@ A: Black_Hair    B: Blond_Hair
 | Input A | Input B | Fake A | Fake B | Cycle A | Cycle B |
 | :-----: | :-----: | :----: | :----: | :-----: | :-----: |
 | ![](cycle1/inputA_0_4.jpg) | ![](cycle1/inputB_0_0.jpg) | ![](cycle1/fakeA_0_4.jpg) | ![](cycle1/fakeB_0_0.jpg) | ![](cycle1/cycA_0_4.jpg) | ![](cycle1/cycB_0_0.jpg) |
-| ![](cycle1/inputA_0_9.jpg) | ![](cycle1/inputB_0_24.jpg) | ![](cycle1/fakeA_0_9.jpg) | ![](cycle1/fakeB_0_24.jpg) | ![](cycle1/cycA_0_9.jpg) | ![](cycle1/cyc_0_24.jpg) |
-| ![](cycle1/inputA_0_45.jpg) | ![](cycle1/input_0_42.jpg) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/fakeB_0_42.jpg) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/cyc_0_42.jpg) |
-| ![](cycle1/inputA_0_47.jpg) | ![](cycle1/input_0_125.jpg) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/fakeB_0_125.jpg) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/cyc_0_125.jpg) |
+| ![](cycle1/inputA_0_9.jpg) | ![](cycle1/inputB_0_24.jpg) | ![](cycle1/fakeA_0_9.jpg) | ![](cycle1/fakeB_0_24.jpg) | ![](cycle1/cycA_0_9.jpg) | ![](cycle1/cycB_0_24.jpg) |
+| ![](cycle1/inputA_0_45.jpg) | ![](cycle1/inputB_0_42.jpg) | ![](cycle1/fakeA_0_45.jpg) | ![](cycle1/fakeB_0_42.jpg) | ![](cycle1/cycA_0_45.jpg) | ![](cycle1/cycB_0_42.jpg) |
+| ![](cycle1/inputA_0_47.jpg) | ![](cycle1/inputB_0_125.jpg) | ![](cycle1/fakeA_0_47.jpg) | ![](cycle1/fakeB_0_125.jpg) | ![](cycle1/cycA_0_47.jpg) | ![](cycle1/cycB_0_125.jpg) |
 
 * Cycle2
 
