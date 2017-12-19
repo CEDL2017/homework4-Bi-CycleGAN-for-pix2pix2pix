@@ -1,7 +1,9 @@
 # Homework4 report
 
 ### What scenario do I apply in?
-you are encouraged to elaborate the motivation here
+>X: horse
+>Y: zebre
+>Z: lion
 
 ### What do I modify? 
 you can show some snippet
@@ -150,8 +152,6 @@ fake horse
 </td>
 </tr>
 </table>
-
-
 
 ### My thoughts 
 you can make some comments on the your own homework, e.g. what's the strength? what's the limitation?
