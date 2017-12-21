@@ -61,13 +61,16 @@ data set 是 蘋果A、橘子B、香蕉C<br/>
 CycleGAN <br/>
 * [CycleGAN](https://junyanz.github.io/CycleGAN) <br/>
 * [CycleGAN-Tensorflow](https://github.com/vanhuyz/CycleGAN-TensorFlow) <br/>
+
 Tool (image find): <br/>
 * [Pixabay](https://pixabay.com)  <br/>
 * [Download images from web page](https://imagecyborg.com)  <br/>
 * [The Best Places to Find Free, High-Res Images for your Website](https://free.com.tw/15-find-free-images)  <br/>
+
 Tool (image preprocess): <br/>
 * [Scipy.imsave](https://docs.scipy.org/doc/scipy/reference/generated/scipy.misc.imsave.html#scipy.misc.imsave) <br/>
 * [Numpy.shuffle](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.random.shuffle.html) <br/>
+
 Tool (others): <br/>
 * [Imgur](https://imgur.com) <br/>
 * [Pdf to markdown](http://pdf2md.morethan.io)  <br/>
