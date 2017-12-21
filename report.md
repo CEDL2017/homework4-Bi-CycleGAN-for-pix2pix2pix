@@ -6,8 +6,8 @@
 ||披著橘子皮的蘋果|
 
 ### What scenario do I apply in?
-**Fruit peel transfer (果皮轉換訓練)**
-data set 是 蘋果A、橘子B、香蕉C
+**Fruit peel transfer (果皮轉換訓練)**<br/>
+data set 是 蘋果A、橘子B、香蕉C<br/>
 
 思路: <br/>
 蘋果(紅) ⇔ 橘子(橘) ⇔ 香蕉(黃) <br/>
@@ -29,16 +29,14 @@ data set 是 蘋果A、橘子B、香蕉C
 |![](https://i.imgur.com/nawjiyS.jpg)|![](https://i.imgur.com/ozofolW.jpg)|![](https://i.imgur.com/xyT15M6.jpg)|
 |![](https://i.imgur.com/AoJbOw7.jpg)|![](https://i.imgur.com/q8ludkP.jpg)|![](https://i.imgur.com/5HtAdli.jpg)|
 
-### My experiment & thoughts 
+### My experiment & thoughts <br/>
 
 * 橘子跟香蕉的轉換(B→C)，並沒有生成出很好的圖片， <br/>
 我認為有幾個原因： <br/>
-    1. 香蕉的外型與前兩者有段落差 (蘋果跟橘子都是圓的，香蕉是長條狀的) <br/>
-    2. 訓練時間應該還不太足夠 (本實驗使用1080Ti，訓練3天) <br/>
-
+    1. 香蕉的外型與前兩者有段落差 (蘋果跟橘子都是圓的，香蕉是長條狀的) 
+    2. 訓練時間應該還不太足夠 (本實驗使用1080Ti，訓練3天) 
 * 蘋果(A.) ⇔ 橘子(B.) <br/>
 使用pretrain model (Reference[2]) <br/>
-
 * 橘子(B.) ⇔ 香蕉(C.) <br/>
 自行訓練 (也有著一些有趣的實驗照片) <br/>
     1. 香蕉2橘子，有時會很像木瓜(中間那張) <br/>
@@ -63,16 +61,13 @@ data set 是 蘋果A、橘子B、香蕉C
 CycleGAN <br/>
 * [CycleGAN](https://junyanz.github.io/CycleGAN) <br/>
 * [CycleGAN-Tensorflow](https://github.com/vanhuyz/CycleGAN-TensorFlow) <br/>
- <br/>
 Tool (image find): <br/>
 * [Pixabay](https://pixabay.com)  <br/>
 * [Download images from web page](https://imagecyborg.com)  <br/>
 * [The Best Places to Find Free, High-Res Images for your Website](https://free.com.tw/15-find-free-images)  <br/>
- <br/>
 Tool (image preprocess): <br/>
 * [Scipy.imsave](https://docs.scipy.org/doc/scipy/reference/generated/scipy.misc.imsave.html#scipy.misc.imsave) <br/>
 * [Numpy.shuffle](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.random.shuffle.html) <br/>
- <br/>
 Tool (others): <br/>
 * [Imgur](https://imgur.com) <br/>
 * [Pdf to markdown](http://pdf2md.morethan.io)  <br/>
