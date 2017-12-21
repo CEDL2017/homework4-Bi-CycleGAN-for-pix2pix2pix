@@ -2,7 +2,7 @@
 
 |apple|orange apple|
 |-|-|
-|![apple](https://i.imgur.com/EKls6PD.jpg =250x)|![orange apple](https://imgur.com/IGZEMUs.jpg =250x)|
+|<img src="https://i.imgur.com/EKls6PD.jpg" width="250">|<img src="https://imgur.com/IGZEMUs.jpg" width="250">|
 ||披著橘子皮的蘋果|
 
 ### What scenario do I apply in?
@@ -77,5 +77,6 @@ Tool (others): <br/>
 * [Imgur](https://imgur.com) <br/>
 * [Pdf to markdown](http://pdf2md.morethan.io)  <br/>
 * [Get image (word)](https://www.lhu.edu.tw/i/teach-online/word_pic.htm)  <br/>
-* [Md change image size](https://stackoverflow.com/questions/14675913/how-to-change-image-size-markdown) <br/>
+* [Md change image size I](https://stackoverflow.com/questions/14675913/how-to-change-image-size-markdown) <br/>
+* [Md change image size II](https://stackoverflow.com/questions/14675913/how-to-change-image-size-markdown) <br/>
 * [Warning](https://github.com/tensorflow/tensorflow/issues/7778) <br/>
