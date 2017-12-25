@@ -24,8 +24,8 @@
 
 ## Usage
 
-* Run a crawler
+* Run a crawler, e.g.:
 
     ```
-    $ python flickr_crawler.py
+    $ python flickr_crawler.py suit --json_dir=./json --image_dir=./images
     ```
