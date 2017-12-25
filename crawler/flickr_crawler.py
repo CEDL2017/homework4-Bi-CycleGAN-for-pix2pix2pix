@@ -1,3 +1,4 @@
+import argparse
 import json
 import os
 import urllib.request
@@ -22,14 +23,15 @@ class Crawler(object):
         return res
 
 
-def run(public_key, secret_key, path_to_save_json_dir, path_to_save_image_dir):
+def run(keyword, public_key, secret_key, path_to_save_json_dir, path_to_save_image_dir):
     crawler = Crawler(public_key, secret_key)
     start_page = 1
-    end_page = 400
+    end_page = 400 + 1
     num_photos_per_page = 10
-    keyword = 'suit'
 
     for page in range(start_page, end_page):
+        print('Page {:d}/{:d}'.format(page, end_page))
+
         path_to_save_json_file = os.path.join(path_to_save_json_dir, keyword, '{:s}_{:d}.json'.format(keyword, page))
         os.makedirs(os.path.dirname(path_to_save_json_file), exist_ok=True)
 
@@ -73,15 +75,20 @@ def run(public_key, secret_key, path_to_save_json_dir, path_to_save_image_dir):
 
 
 if __name__ == '__main__':
-    def main():
-        path_to_save_json_dir = './json'
-        path_to_save_image_dir = './images'
+    def main(args):
+        keyword = args.keyword
+        path_to_save_json_dir = args.json_dir
+        path_to_save_image_dir = args.image_dir
 
         with open('env.yaml', 'r') as f:
             env = yaml.load(f)
             public_key = env['FLICKR_PUBLIC_KEY']
             secret_key = env['FLICKR_SECRET_KEY']
 
-        run(public_key, secret_key, path_to_save_json_dir, path_to_save_image_dir)
+        run(keyword, public_key, secret_key, path_to_save_json_dir, path_to_save_image_dir)
 
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('keyword', type=str)
+    parser.add_argument('-jd', '--json_dir', default='./json')
+    parser.add_argument('-id', '--image_dir', default='./images')
+    main(parser.parse_args())
